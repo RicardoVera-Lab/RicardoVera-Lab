@@ -39,9 +39,7 @@ A research system that always returns the exciting answer is not a high-reliabil
 
 A computer-assisted mathematical result establishing the frozen lower bound:
 
-[
-\boxed{h(6)\ge 25}
-]
+**h(6) ≥ 25**
 
 Public evidence includes the preprint, proof architecture, exact certificate material, a clean-room verifier, witness data, adversarial attacks and automated verification.
 
