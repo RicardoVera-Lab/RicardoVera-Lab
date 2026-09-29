@@ -73,9 +73,7 @@ These are not generic demos. They are public research artifacts selected to expo
 
 H6 proves universal quadratic image containment through 24 arbitrary targets in the frozen setting, yielding:
 
-[
-\boxed{h(6)\ge 25}
-]
+**h(6) ≥ 25**
 
 The result exceeds the apparent 22-dimensional interpolation ceiling through adaptive placement of unavoidable dependency relations.
 
