@@ -8,15 +8,35 @@
 
 Boutique research for problems where the answer is unclear, the evidence is imperfect, and being confidently wrong is expensive.
 
+**Bring the claim before you bet capital, architecture or reputation on it.**
+
+[**Executive Portfolio →**](EXECUTIVE_PORTFOLIO.md)
+
 </div>
 
 ---
 
+# Executive brief
+
+CIEC LAB is built for one class of problem:
+
+> **a consequential decision depends on a technical or scientific claim that has not yet earned the confidence being placed on it.**
+
+We do not sell more dashboards, more slides or more certainty theater.
+
+We turn disputed, incomplete or frontier problems into **auditable decision objects** by combining adversarial research, mathematical reasoning, computational verification, evidence discipline and explicit stopping rules.
+
+The laboratory must be able to produce all three outcomes:
+
+- **DISCOVER** — a positive result that survives proof and verification.
+- **CHALLENGE** — a preferred story that survives only if rival explanations fail.
+- **VERIFY** — a defensible stop when the required evidence is not strong enough.
+
+**A system that can only say “yes” is not research.**
+
+---
+
 ## What CIEC LAB does
-
-CIEC LAB is built for high-consequence technical and scientific questions that do not come with clean answers.
-
-We help turn ambiguous, disputed or frontier problems into **auditable decision objects** by combining adversarial research, mathematical reasoning, computational verification, evidence discipline and explicit stopping rules.
 
 Typical work includes:
 
@@ -32,20 +52,30 @@ Typical work includes:
 
 ---
 
+# Portfolio at a glance
+
+| Capability | Public evidence | What it demonstrates |
+|---|---|---|
+| **DISCOVER** | **H6 — Mathematical Discovery** | Move from an unresolved technical question to a formal positive result with proof architecture, exact certificates, adversarial attack and public verification. |
+| **CHALLENGE** | **CS06 — Decision Intelligence** | Decompose a seductive hypothesis into rival mechanisms, expose measurement failure and refuse to promote a story beyond the evidence. |
+| **VERIFY** | **CS05 — Evidence Integrity** | Freeze the test before data access, validate the analysis logic and stop rather than manufacture a conclusion when the required evidence is unavailable. |
+
+These are not generic demos. They are public research artifacts selected to expose different behaviors of the laboratory.
+
+---
+
 # Selected Public Evidence
 
-These repositories are not generic demonstrations. Each one exposes a different capability of the laboratory.
-
-## 01 — DISCOVER  
+## 01 — DISCOVER
 ### H6 · Mathematical Discovery
 
 **A positive computer-assisted theorem produced inside CIEC LAB.**
 
 H6 proves universal quadratic image containment through 24 arbitrary targets in the frozen setting, yielding:
 
-$
-\\boxed{h(6)\\ge 25}
-$
+[
+\boxed{h(6)\ge 25}
+]
 
 The result exceeds the apparent 22-dimensional interpolation ceiling through adaptive placement of unavoidable dependency relations.
 
@@ -55,7 +85,7 @@ The result exceeds the apparent 22-dimensional interpolation ceiling through ada
 
 ---
 
-## 02 — CHALLENGE  
+## 02 — CHALLENGE
 ### CS06 · Decision Intelligence
 
 A scientifically attractive hypothesis was decomposed into rival mechanisms, tested for identifiability, audited against imperfect evidence and closed without promoting a preferred story beyond the data.
@@ -68,7 +98,7 @@ The case demonstrates how weak measurement can manufacture an apparent mechanism
 
 ---
 
-## 03 — VERIFY  
+## 03 — VERIFY
 ### CS05 · Evidence Integrity
 
 A published physical anomaly was converted into a preregistered discrimination test before access to the desired raw data.
@@ -131,11 +161,34 @@ A strong engagement should leave leadership with a clearer answer to questions s
 
 ---
 
+# When CIEC LAB is worth calling
+
+The laboratory is most useful **before** a decision becomes expensive to reverse.
+
+Bring us:
+
+- a technical claim you may invest behind;
+- an R&D hypothesis consuming time or capital;
+- a model or algorithm you do not fully trust;
+- a vendor, acquisition or technology thesis whose evidence needs to be attacked;
+- a scientific result that looks convincing but may not support the decision being built on it;
+- an internal analysis where everyone agrees too quickly.
+
+The starting object can be small:
+
+> **one claim · one decision · one failure mode**
+
+The objective is not to make the story sound smarter.
+
+The objective is to find out **whether the story survives contact with evidence.**
+
+---
+
 ## Public evidence. Private machinery.
 
 The repositories expose enough evidence to inspect the public claims, results and verification paths.
 
-CIEC LAB's internal research architecture, orchestration logic, agent prompts and operating methods remain proprietary.
+CIEC LAB's internal research architecture, orchestration logic, prompts, routing rules, decision thresholds and operating methods remain proprietary.
 
 > **Public evidence. Private machinery.**
 
