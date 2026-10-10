@@ -165,6 +165,8 @@ The public portfolio exposes selected claims, limitations, verification paths, r
 
 These cases demonstrate different behaviors of the research system. They are case-scoped evidence, not universal performance guarantees.
 
+**Additional engineering case — SEDA:** [Experimental decision engine (archived) →](SEDA_EXPERIMENTAL_ENGINE.md). A bounded software-build and adversarial-validation case; no demonstrated trading profitability or commercial deployment.
+
 ---
 
 ## DISCOVER — H6
