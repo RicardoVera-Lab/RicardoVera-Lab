@@ -1,0 +1,24 @@
+name: Reproduce and verify
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Verify source checksums
+        run: python tools/verify_manifest.py
+      - name: Recalculate financial scenarios
+        run: python -m src.restaurant_case --check-anchors
+      - name: Test economic and operational cases
+        run: python -m unittest discover -s tests -v
+      - name: Verify deterministic tracked outputs
+        run: git diff --exit-code -- outputs/

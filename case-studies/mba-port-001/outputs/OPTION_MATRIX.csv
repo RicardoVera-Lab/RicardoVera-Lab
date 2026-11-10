@@ -1,0 +1,6 @@
+option,state,delta_vs_h0_um,reason,assumed_volume_drop_pct,stop_at_pct
+H0,HOLD,0.00,Mantener comparador y medir,,
+H1,RESEARCH,95150.38,Revisar respuesta de demanda antes de cambiar precio,3.00,8.00
+H2,RESEARCH,114563.18,Investigar elasticidad y efecto de descuento,0.00,1.00
+A,DESIGN_PILOT,,"Diseñar control de lotes y mermas, sin atribuir ahorro",,
+B,DESIGN_PILOT,,"Diseñar cobertura por franja, sin atribuir ahorro",,

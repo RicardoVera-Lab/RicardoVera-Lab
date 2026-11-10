@@ -108,6 +108,20 @@ The GitHub portfolio is not presented as a list of generic demos.
 
 It exposes selected research objects that demonstrate distinct behaviors of the laboratory.
 
+## BUSINESS PERFORMANCE — MBA-PORT-001
+
+### Restaurante Horizonte — Profitability & Executive Decisions
+
+**Revenue increased. Profit conversion deteriorated.** January-to-December operating margin moved from **28.35% to 22.17%**. A reproducible investigation connects sales, recipe costs, waste, delivery, inventory and commercial scenarios to executive choices.
+
+**The decisive test:** reducing discounts appears to add **114,563.18 UM** under flat unit demand but produces **−82,452.97 UM** compared with baseline under only a 1% unit decline. The deliverable includes reconciled data, Python code, scenario outputs, operational controls and automated tests.
+
+**Executive value:** identify where margin is eroding, what changes deserve a controlled experiment and which apparently attractive decisions should be paused.
+
+[**Open the full executable case →**](case-studies/mba-port-001/README.md) · [**Discuss your business problem →**](mailto:richardvera084@gmail.com?subject=Business%20profitability%20diagnostic)
+
+---
+
 ## DISCOVER — H6
 
 ### Universal Quadratic Image Theorem

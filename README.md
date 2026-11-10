@@ -18,6 +18,16 @@ We turn uncertain technical claims into auditable decision objects: what is supp
 
 ---
 
+## BUSINESS PERFORMANCE | When revenue grows but margins shrink
+
+**MBA-PORT-001 — Restaurant Profitability & Decision Intelligence.** Twelve months of reconciled business data exposed a margin decline from **28.35% to 22.17%** despite higher sales. Commercial stress tests show why a discount reduction can move from **+114,563 UM** to **−82,453 UM** if unit demand falls only **1%**.
+
+**Ricardo Vera | Business Analyst & Operational Intelligence Consultant.** Financial reconciliation, SKU-level pricing analysis, inventory controls, decision testing and executive recommendations, with public code, datasets and automated verification.
+
+[**Explore the complete business case →**](case-studies/mba-port-001/README.md) · [**Executive contact →**](mailto:richardvera084@gmail.com?subject=Business%20profitability%20diagnostic)
+
+---
+
 # The problem we are built for
 
 A consequential decision is about to be made.
@@ -159,6 +169,7 @@ The public portfolio exposes selected claims, limitations, verification paths, r
 
 | Laboratory behavior | Public evidence | What the case demonstrates |
 |---|---|---|
+| **BUSINESS PERFORMANCE** | **[MBA-PORT-001 — Restaurant Profitability](case-studies/mba-port-001/README.md)** | Reconcile 12 months of sales and costs, expose margin erosion, stress-test price/discount decisions, and deliver auditable operational options. |
 | **DISCOVER** | **H6 — Mathematical Discovery** | Move from an unresolved technical problem to a formal positive result with proof architecture, exact certificates, adversarial attack and reproducible public verification. |
 | **CHALLENGE** | **CS06 — Decision Intelligence** | Decompose an attractive hypothesis into rival mechanisms, expose measurement failure and refuse to promote a story beyond the evidence. |
 | **VERIFY** | **CS05 — Evidence Integrity** | Freeze the test before data access, validate the analysis logic and stop rather than manufacture a conclusion when the required evidence is unavailable. |

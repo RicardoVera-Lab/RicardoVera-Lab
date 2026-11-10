@@ -1,0 +1,10 @@
+{
+  "pre_execution_cancellation": "RELEASED_PRE_EXECUTION",
+  "slot_after_pre_cancel": "FREE",
+  "post_execution_cancellation": "REVERSAL_REQUIRED_AFTER_EXECUTION",
+  "post_execution_slot_retained": true,
+  "bad_reversal": "INVALID_REVERSAL_REFERENCE",
+  "valid_reversal": "RELEASED_AFTER_MATCHED_REVERSAL",
+  "slot_after_valid_reversal": "FREE",
+  "invalid_id_rejected": true
+}

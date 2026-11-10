@@ -1,0 +1,188 @@
+{
+  "case_id": "MBA-PORT-001",
+  "period": "2025-01/2025-12",
+  "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED",
+  "baseline": {
+    "gross_um": "33237158.72",
+    "discount_um": "763754.54",
+    "net_um": "32473404.18",
+    "cogs_um": "12886352.22",
+    "waste_um": "246242.05",
+    "delivery_um": "938291.00",
+    "opex_um": "10191069.00",
+    "profit_um": "8211449.91",
+    "margin_pct": "25.29"
+  },
+  "monthly": [
+    {
+      "month": "2025-01",
+      "net_sales_um": "2437334.02",
+      "profit_um": "690903.42",
+      "margin_pct": "28.35"
+    },
+    {
+      "month": "2025-02",
+      "net_sales_um": "2525696.28",
+      "profit_um": "738887.55",
+      "margin_pct": "29.25"
+    },
+    {
+      "month": "2025-03",
+      "net_sales_um": "2628365.05",
+      "profit_um": "784595.70",
+      "margin_pct": "29.85"
+    },
+    {
+      "month": "2025-04",
+      "net_sales_um": "2599441.89",
+      "profit_um": "729085.56",
+      "margin_pct": "28.05"
+    },
+    {
+      "month": "2025-05",
+      "net_sales_um": "2552882.52",
+      "profit_um": "701534.58",
+      "margin_pct": "27.48"
+    },
+    {
+      "month": "2025-06",
+      "net_sales_um": "2649296.81",
+      "profit_um": "701519.89",
+      "margin_pct": "26.48"
+    },
+    {
+      "month": "2025-07",
+      "net_sales_um": "2772535.48",
+      "profit_um": "748273.97",
+      "margin_pct": "26.99"
+    },
+    {
+      "month": "2025-08",
+      "net_sales_um": "2712567.28",
+      "profit_um": "605823.78",
+      "margin_pct": "22.33"
+    },
+    {
+      "month": "2025-09",
+      "net_sales_um": "2782354.89",
+      "profit_um": "630615.12",
+      "margin_pct": "22.66"
+    },
+    {
+      "month": "2025-10",
+      "net_sales_um": "2868598.55",
+      "profit_um": "617557.74",
+      "margin_pct": "21.53"
+    },
+    {
+      "month": "2025-11",
+      "net_sales_um": "2854364.18",
+      "profit_um": "577750.21",
+      "margin_pct": "20.24"
+    },
+    {
+      "month": "2025-12",
+      "net_sales_um": "3089967.23",
+      "profit_um": "684902.39",
+      "margin_pct": "22.17"
+    }
+  ],
+  "scenarios": {
+    "H1_0pct": {
+      "option": "H1",
+      "volume_drop_pct": "0.00",
+      "net_sales_um": "32631896.52",
+      "recipe_cogs_um": "12886352.22",
+      "result_um": "8369942.25",
+      "delta_vs_h0_um": "158492.34",
+      "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED"
+    },
+    "H1_3pct": {
+      "option": "H1",
+      "volume_drop_pct": "3.00",
+      "net_sales_um": "32532046.34",
+      "recipe_cogs_um": "12849844.01",
+      "result_um": "8306600.29",
+      "delta_vs_h0_um": "95150.38",
+      "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED"
+    },
+    "H1_8pct": {
+      "option": "H1",
+      "volume_drop_pct": "8.00",
+      "net_sales_um": "32365629.39",
+      "recipe_cogs_um": "12788996.99",
+      "result_um": "8201030.36",
+      "delta_vs_h0_um": "-10419.55",
+      "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED"
+    },
+    "H2_0pct": {
+      "option": "H2",
+      "volume_drop_pct": "0.00",
+      "net_sales_um": "32587967.36",
+      "recipe_cogs_um": "12886352.22",
+      "result_um": "8326013.09",
+      "delta_vs_h0_um": "114563.18",
+      "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED"
+    },
+    "H2_1pct": {
+      "option": "H2",
+      "volume_drop_pct": "1.00",
+      "net_sales_um": "32262087.69",
+      "recipe_cogs_um": "12757488.70",
+      "result_um": "8128996.94",
+      "delta_vs_h0_um": "-82452.97",
+      "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED"
+    },
+    "H2_3pct": {
+      "option": "H2",
+      "volume_drop_pct": "3.00",
+      "net_sales_um": "31610328.34",
+      "recipe_cogs_um": "12499761.65",
+      "result_um": "7734964.64",
+      "delta_vs_h0_um": "-476485.27",
+      "cost_rule": "RECIPE_COGS_VARIABLE_WASTE_DELIVERY_OPEX_FIXED"
+    }
+  },
+  "options": [
+    {
+      "option": "H0",
+      "state": "HOLD",
+      "delta_vs_h0_um": "0.00",
+      "reason": "Mantener comparador y medir"
+    },
+    {
+      "option": "H1",
+      "state": "RESEARCH",
+      "delta_vs_h0_um": "95150.38",
+      "assumed_volume_drop_pct": "3.00",
+      "stop_at_pct": "8.00",
+      "reason": "Revisar respuesta de demanda antes de cambiar precio"
+    },
+    {
+      "option": "H2",
+      "state": "RESEARCH",
+      "delta_vs_h0_um": "114563.18",
+      "assumed_volume_drop_pct": "0.00",
+      "stop_at_pct": "1.00",
+      "reason": "Investigar elasticidad y efecto de descuento"
+    },
+    {
+      "option": "A",
+      "state": "DESIGN_PILOT",
+      "delta_vs_h0_um": null,
+      "reason": "Diseñar control de lotes y mermas, sin atribuir ahorro"
+    },
+    {
+      "option": "B",
+      "state": "DESIGN_PILOT",
+      "delta_vs_h0_um": null,
+      "reason": "Diseñar cobertura por franja, sin atribuir ahorro"
+    }
+  ],
+  "constraints": [
+    "A_AND_B_ONE_SHARED_PILOT_SLOT",
+    "DO_NOT_ADD_SCENARIOS",
+    "DO_NOT_INFER_MONEY_SAVINGS_FOR_A_B",
+    "REQUIRE_BUSINESS_AUTHORIZATION_FOR_EXECUTION"
+  ]
+}
