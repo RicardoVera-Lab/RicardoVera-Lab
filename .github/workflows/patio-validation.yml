@@ -1,0 +1,23 @@
+name: Patio del Molino | Reproduce executive figures
+on:
+  push:
+    paths:
+      - 'case-studies/patio-del-molino/**'
+      - '.github/workflows/patio-validation.yml'
+  pull_request:
+    paths:
+      - 'case-studies/patio-del-molino/**'
+      - '.github/workflows/patio-validation.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reconstruct financials and constraints
+        run: python case-studies/patio-del-molino/src/reproduce.py
+      - name: Run reproducible tests
+        run: python -m unittest discover -s case-studies/patio-del-molino/tests -v

@@ -1,295 +1,88 @@
-# CIEC LAB — Executive Portfolio
+# Ricardo Vera | CIEC LAB — Executive Portfolio
 
-## High-consequence research for decisions that cannot afford false confidence
+## Business analysis that changes the decision, not just the report
 
-**CIEC LAB attacks uncertainty before it becomes capital loss.**
+**If a business is growing but earning less, I want to know where the margin went. If a proposed fix looks profitable, I want to know what would make it fail.**
 
-We are built for technical, scientific and strategic decisions where the answer is not clean, the evidence is incomplete, and a confident error can become embedded in R&D spend, product architecture, vendor selection, acquisition theses, model deployment or public commitment.
+My work connects financial modeling, operational diagnostics, data quality, Python verification, risk mapping and executive decision design.
 
-The operating objective is simple:
+**Hiring fit:** Business Analyst, Operational / Performance Analyst, Decision Intelligence, Research & Systems Evaluation, Business Process Improvement.
 
-> **turn an uncertain technical claim into a decision that can survive scrutiny.**
+**Consulting fit:** profitability diagnosis, operational risk reviews, financial and commercial scenario testing, decision process design.
 
----
-
-# What CIEC LAB sells
-
-CIEC LAB is not positioned as generic AI consulting, dashboard production or a slide-heavy strategy service.
-
-The laboratory is designed for situations where a decision depends on a claim that has not yet earned the confidence being placed on it.
-
-## Decision Audit
-
-Pressure-test a consequential decision before it becomes costly to reverse.
-
-**Typical output**
-- strongest defensible claim;
-- strongest rival explanation;
-- material assumptions;
-- failure modes;
-- evidence gaps;
-- falsification conditions;
-- minimum next test;
-- continue / redesign / test / stop / commit boundary.
-
-## Technical Claim Audit
-
-Take one technical, scientific or analytical assertion and subject it to adversarial evidence review before money, architecture or reputation depends on it.
-
-## AI / Model Evaluation
-
-Evaluate whether an AI, analytics or algorithmic output deserves the confidence being placed on it, with attention to evidence quality, measurement, source dependence, failure modes, reproducibility, uncertainty and human decision use.
-
-## R&D Kill-or-Continue Review
-
-Determine whether the next rational move is to continue, redesign, test harder, pause or stop.
-
-> **The laboratory does not exist to produce the exciting answer. It exists to protect the decision from false confidence.**
+[**Contact Ricardo Vera**](mailto:richardvera084@gmail.com?subject=Executive%20inquiry%20%7C%20CIEC%20LAB)
 
 ---
 
-# The first engagement
+## Portfolio evidence
 
-## CIEC LAB Decision Audit Sprint
+### 01 | Revenue increased. Margin fell. — MBA-PORT-001
 
-A client can begin with one bounded object:
+**Problem:** twelve-month restaurant model with higher sales but lower operating margin.
 
-- one claim;
-- one model;
-- one technical thesis;
-- one R&D hypothesis;
-- one vendor assumption;
-- one acquisition assumption;
-- one high-consequence decision.
+**Findings:** annual net sales **32,473,404.18 UM**; operating result **8,211,449.91 UM**; January-to-December margin **28.35% → 22.17%** (**−6.18 percentage points**).
 
-The engagement is structured to answer:
+**Decision stress test:** reducing discounts could add **114,563.18 UM** with unchanged unit demand; the same option produces **−82,452.97 UM** against baseline with only **1% fewer units**.
 
-1. What is actually supported?
-2. What is merely plausible?
-3. What are the hidden assumptions?
-4. What is the strongest rival explanation?
-5. Where could the current analysis fail?
-6. What evidence is missing?
-7. What would falsify the preferred story?
-8. What is the smallest next test worth funding?
-9. Where is the decision boundary?
+**Deliverables:** reproducible Python calculation, CSV inputs, scenario matrix, executive report, operational controls and 29 automated tests.
 
-[**Decision Audit Sprint →**](DECISION_AUDIT_SPRINT.md)
+[**Read and run the case**](case-studies/mba-port-001/README.md)
 
----
+### 02 | A narrow operating margin and multiple warning signals — Patio del Molino
 
-# Why a company would pay for this
+**Problem:** operational screening identified simultaneous pressure on ingredient spend, waste, refunds, stock and staffing. The real management question was which signal to investigate first and what financial room remained.
 
-The economic value is not the number of pages delivered.
+**Findings:** sales **4,444,400 UM**; declared purchases/inputs **1,911,092 UM**; reported operating expenses **2,381,310 UM**; simplified operating result **151,998 UM (3.42%)**. Internal operational risk index **80.04/100**.
 
-It is the possibility of discovering a weak assumption **before** it becomes embedded in:
+**Sensitivity:** an **8% increase in declared purchases**, holding the other modeled amounts constant, moves the simplified result from **151,998 UM to −889.36 UM**.
 
-- R&D spend;
-- product architecture;
-- AI or model deployment;
-- vendor contracts;
-- acquisition or investment decisions;
-- operational changes;
-- strategic technology bets;
-- scientific or technical claims;
-- public or internal commitments.
+**What changed in the decision:** 13 diagnostic hypotheses were organized into five tracks, with document requirements, measurable checks, stopping rules and a four-week plan. A **70% increase in refund value** was kept distinct from refund transaction count; customer segmentation was reconciled before interpreting loyalty.
 
-CIEC LAB does **not** claim that every engagement saves money, nor that the public cases prove enterprise-scale performance.
+**Deliverables:** diagnostic-to-decision narrative, public financial reconstruction, indicator snapshot, decision matrix, Python verification and executive plan. The local SIPER-X application remains proprietary.
 
-The narrower and defensible claim is:
-
-> **CIEC LAB is built to subject consequential claims to structured adversarial research, evidence control and decision-oriented synthesis before irreversible commitment.**
+[**Read the case and reproduce the financials**](case-studies/patio-del-molino/README.md)
 
 ---
 
-# Public evidence
+## What I can own
 
-The GitHub portfolio is not presented as a list of generic demos.
+| Business need | Technical and analytical work | Executive output |
+|---|---|---|
+| Profitability erosion | Reconcile revenues, purchase costs, expenses and product economics | Margin drivers, scenarios and decision priorities |
+| Operational losses | Screen stock differences, waste, refunds and process measures | Prioritized investigation and controlled pilots |
+| Commercial uncertainty | Stress-test prices and promotions against demand response | Decision matrix with explicit downside |
+| Data quality problems | Check identities, records, cross-source consistency and missing evidence | Traceable metrics and what can be concluded |
+| Risky decisions | Compare alternatives, assumptions, reversibility and stop rules | Management brief and action roadmap |
 
-It exposes selected research objects that demonstrate distinct behaviors of the laboratory.
+**Tools and methods evidenced in the repository:** Python, CSV-based analytics, numerical reconciliation, scenario modeling, automated tests, documented evidence and management reporting.
 
-## BUSINESS PERFORMANCE — MBA-PORT-001
+## How I work with decision-makers
 
-### Restaurante Horizonte — Profitability & Executive Decisions
+1. **Define the business decision.** Which result must improve, and what may not get worse?
+2. **Reconstruct the baseline.** Determine what the available records actually say.
+3. **Challenge the first explanation.** Separate signals, assumptions, missing links and causal hypotheses.
+4. **Compare alternatives.** Calculate upside, downside, operational cost and required evidence.
+5. **Deliver a decision.** Prioritize the next measurable steps and define when to stop or revise.
 
-**Revenue increased. Profit conversion deteriorated.** January-to-December operating margin moved from **28.35% to 22.17%**. A reproducible investigation connects sales, recipe costs, waste, delivery, inventory and commercial scenarios to executive choices.
-
-**The decisive test:** reducing discounts appears to add **114,563.18 UM** under flat unit demand but produces **−82,452.97 UM** compared with baseline under only a 1% unit decline. The deliverable includes reconciled data, Python code, scenario outputs, operational controls and automated tests.
-
-**Executive value:** identify where margin is eroding, what changes deserve a controlled experiment and which apparently attractive decisions should be paused.
-
-[**Open the full executable case →**](case-studies/mba-port-001/README.md) · [**Discuss your business problem →**](mailto:richardvera084@gmail.com?subject=Business%20profitability%20diagnostic)
-
----
-
-## DISCOVER — H6
-
-### Universal Quadratic Image Theorem
-
-A positive computer-assisted mathematical result establishing the frozen lower bound:
-
-**h(6) ≥ 25**
-
-Public evidence includes:
-- preprint;
-- proof architecture;
-- exact certificate material;
-- witness data;
-- clean-room verifier;
-- adversarial attacks;
-- automated verification;
-- explicit claim boundaries.
-
-**Executive meaning:** the laboratory can enter a difficult unresolved technical object and produce a positive result structured for attack and verification.
-
-[Open H6](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem)
+This is not a promise that every proposed intervention will make money. It is a way to identify bad bets earlier and focus scarce management attention on defensible choices.
 
 ---
 
-## CHALLENGE — CS06
+## Scientific and technical research
 
-### Hypnosis Mechanism Identification Under Uncertainty
+- [H6 — Mathematical discovery](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem)
+- [CS05 — Topological overshoot case](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study)
+- [CS06 — Mechanism identification case](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study)
+- [Decision Audit Sprint](DECISION_AUDIT_SPRINT.md)
 
-A strong initial hypothesis was decomposed into rival mechanisms, stress-tested against measurement limitations and closed without promoting the preferred explanation beyond the evidence.
+## The call to action
 
-**Executive meaning:** CIEC LAB can expose hidden assumptions, identify the real evidence bottleneck and stop additional analysis when it no longer changes the decision.
+**For hiring managers:** review the two cases and ask how I would investigate a performance problem in your organization.
 
-[Open CS06](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study)
+**For business owners:** send the type of operation, available financial/operational records and the decision you are struggling to make.
 
----
+**Ricardo Vera — CIEC LAB**
 
-## VERIFY — CS05
+[**Email: richardvera084@gmail.com**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Opportunity%20or%20diagnostic)
 
-### Post-Drive Topological Polarization Overshoot
-
-A published physical anomaly was converted into a preregistered discrimination test. The analysis was frozen before access to the desired real data and validated against adversarial synthetic cases. When the required evidence could not be obtained, the laboratory stopped instead of replacing it with weaker evidence.
-
-**Executive meaning:** the laboratory can enforce evidence boundaries under pressure and prevent a weak substitute from becoming a confident technical claim.
-
-[Open CS05](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study)
-
----
-
-# What the portfolio demonstrates
-
-Not that CIEC LAB always finds a positive answer.
-
-Something more useful:
-
-> **the laboratory can distinguish what is proved, what is plausible, what is unresolved, what would falsify the current story, and when it is rational to stop.**
-
-That behavior is relevant to:
-
-- frontier R&D;
-- technical due diligence;
-- model and algorithm validation;
-- AI evaluation;
-- scientific intelligence;
-- experimental design;
-- technology assessment;
-- high-uncertainty strategy;
-- evidence architecture.
-
-The public cases are **case-scoped evidence**. They do not constitute a universal reliability certification or a claim of enterprise deployment history.
-
----
-
-# Buyer situations
-
-CIEC LAB is most relevant when someone inside an organization is asking:
-
-- “Are we about to fund the wrong technical thesis?”
-- “Does this vendor claim actually survive scrutiny?”
-- “Can we trust this model enough to deploy it?”
-- “Are these metrics measuring what management thinks they measure?”
-- “Is this mechanism real, or are we fitting a story to weak evidence?”
-- “Should we keep funding this R&D path?”
-- “What evidence would justify commitment?”
-- “What evidence would force us to stop?”
-
-If those questions are cheap to answer incorrectly, CIEC LAB is probably unnecessary.
-
-If the cost of error is material, adversarial review becomes valuable.
-
----
-
-# Who this is designed for
-
-Potential fit includes:
-
-- R&D and innovation leaders;
-- technical founders;
-- investors and due-diligence teams;
-- AI and analytics leaders;
-- industrial and operational teams;
-- companies evaluating technical vendors or platforms;
-- mining, energy, logistics, agribusiness and industrial environments;
-- deep-tech and scientific programs.
-
-CIEC LAB does not claim specialist domain expertise where it does not exist. External domain expertise should be added when the decision requires it.
-
----
-
-# What a strong engagement should leave behind
-
-A client should leave with a clearer answer to:
-
-- What is the strongest defensible claim?
-- What is the strongest rival?
-- Which evidence actually matters?
-- Which evidence is missing?
-- What assumptions are load-bearing?
-- What failure modes remain?
-- What would change the decision?
-- What is the minimum next test worth paying for?
-- What should happen next?
-
-The deliverable is not “more analysis.”
-
-> **The deliverable is a decision boundary you can defend.**
-
----
-
-# Engagement trigger
-
-CIEC LAB is most valuable **before** the commitment becomes expensive to reverse.
-
-**One claim is enough to start.**
-
-Contact: **richardvera084@gmail.com**
-
-Suggested subject:
-
-**CIEC LAB — Decision Audit**
-
-Send:
-- the decision;
-- the claim or assumption;
-- what is at stake;
-- the deadline;
-- the evidence already available.
-
----
-
-# Public evidence. Private machinery.
-
-The portfolio is intentionally asymmetric.
-
-The public surface exposes:
-- selected claims;
-- evidence;
-- limitations;
-- verification paths;
-- reproducibility;
-- research status.
-
-The internal surface remains proprietary:
-- architecture;
-- prompts;
-- orchestration;
-- routing;
-- thresholds;
-- handoff contracts;
-- decision machinery.
-
-> **Public evidence. Private machinery.**
+**A good analysis tells you what happened. A strong decision system also tells you what deserves action—and what does not.**
