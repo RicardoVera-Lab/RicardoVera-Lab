@@ -29,8 +29,10 @@ class SyntheticReconciliationTest(unittest.TestCase):
         self.assertEqual(len({r["family"] for r in compute()}), 4)
 
     def test_unresolved_not_equivalent_to_loss(self):
-        self.assertEqual(sum(r["status"] == "REVIEW" for r in compute()), 5)
+        self.assertEqual(sum(r["status"] == "REVIEW" for r in compute()), 3)
+        self.assertEqual(sum(r["status"] == "PRICE_CONTEXT" for r in compute()), 2)
         self.assertEqual(sum(r["status"] == "MATCH" for r in compute()), 2)
+        self.assertEqual({r["relation_id"] for r in compute() if r["status"] == "PRICE_CONTEXT"}, {"PRECIO-1", "PRECIO-2"})
 
     def change_and_check(self, change, expected_error=True):
         with DATA.open(encoding="utf-8", newline="") as stream:

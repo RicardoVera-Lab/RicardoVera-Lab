@@ -1,70 +1,54 @@
 <div align="center">
 
-# CIEC LAB
-### Business Analysis · Operational Intelligence · Research & Decision Systems
+# Ricardo Vera | CIEC LAB
+### Business Intelligence · Profitability · Operational Diagnostics
 
-## Better decisions begin with evidence you can verify.
+## Your business has data. Do you know where your margin is disappearing?
 
-**Ricardo Vera** — Business Analysis · Operations · Decision Intelligence
+**I help management find the gaps between sales, costs, inventory and execution — and turn them into decisions supported by numbers.**
 
-I connect scattered business records, quantify operational signals and turn the findings into focused management actions.
+**Ricardo Vera** · Operational Intelligence & Business Analysis · Argentina · Remote B2B
 
-[**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) · [**Agribusiness case**](case-studies/siper-agro/README.md) · [**Restaurant profitability**](case-studies/mba-port-001/README.md) · [**Restaurant operations**](case-studies/patio-del-molino/README.md) · [**Contact**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Business%20inquiry)
-
-</div>
-
----
-
-## Three business challenges. One evidence-first method.
-
-| Case | The management question | Findings demonstrated | Competence |
-|---|---|---|---|
-| **[SIPER-AGRO — Agribusiness Operational Intelligence](case-studies/siper-agro/README.md)** | Where do inventory, settlements, logistics and commercial records stop agreeing—and what should management review first? | **4 reconciliation areas, 7 linked comparisons**, including **−2 TN** in inventory, **−500 ARS** in settlements, **+200 ARS** in freight and **−10 / +5 ARS/TN** in prices. | Cross-source reconciliation, data quality, reproducible Python checks and decision-focused reporting. |
-| **[MBA-PORT-001 — Profitability Under Pressure](case-studies/mba-port-001/README.md)** | Why does revenue improve while margin conversion weakens? | Operating margin **28.35% → 22.17%**; scenario testing reveals how a seemingly attractive discount decision changes under lower demand. | Financial analysis, sensitivity tests and decision controls. |
-| **[Patio del Molino — Operational Intelligence](case-studies/patio-del-molino/README.md)** | Which operating signals deserve attention when profits are narrow? | Simplified operating result **151,998 UM (3.42%)** on **4,444,400 UM** sales; **13** investigation hypotheses grouped into five decision tracks. | Operational diagnostics, risk prioritization and management roadmap. |
-
-**[Read the SIPER-AGRO case in Spanish](case-studies/siper-agro/README_ES.md)**
-
-The portfolio uses illustrative, synthetic datasets to document analytical approaches. The calculations and public validation files can be reviewed independently within each case.
-
-## What I bring to an engagement
-
-**Understand the problem.** Define the operational or financial question worth solving and identify what can be measured.
-
-**Reconstruct the facts.** Reconcile data sources, test inconsistencies, document limitations and build a reliable baseline.
-
-**Translate evidence into decisions.** Separate signals from conclusions, prioritize what to investigate, compare options and clarify the next action.
-
-**Deliver a usable output.** Executive findings, reproducible calculations, evidence requests, owners, checkpoints and follow-up criteria.
-
-### Relevant roles
-
-**Business Analyst · Operations Analyst · Data / BI Analyst · Operational Risk · Decision Intelligence · Research / Systems Evaluation**
-
-### Consulting focus
-
-Operational diagnostics, financial performance, cross-system reconciliation, management reporting and evidence-based improvement plans.
-
-[**Discuss a business diagnostic**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Operational%20Diagnostic) · [**Discuss an analyst role or contract**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Analyst%20Opportunity)
-
----
-
-## Technical and research portfolio
-
-- [**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) — Cases and professional capabilities
-- [**H6 — Mathematical research**](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem)
-- [**CS05 — Evidence integrity**](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study)
-- [**CS06 — Mechanism evaluation**](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study)
-- [**Decision Audit Sprint**](DECISION_AUDIT_SPRINT.md)
-
----
-
-<div align="center">
-
-**Ricardo Vera | CIEC LAB** · Argentina · Remote collaboration
-
-[**Email**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Inquiry) · [**Portfolio**](EXECUTIVE_PORTFOLIO.md)
-
-**Diagnose. Quantify. Verify. Decide.**
+[**Explore the executive portfolio**](EXECUTIVE_PORTFOLIO.md) · [**Request an executive diagnostic**](mailto:richardvera084@gmail.com?subject=Executive%20diagnostic%20%7C%20Ricardo%20Vera)
 
 </div>
+
+---
+
+## Three business problems. Three decisions worth protecting.
+
+| Business problem | Case evidence | Management value |
+|---|---|---|
+| **[SIPER-AGRO · Agribusiness reconciliation](case-studies/siper-agro/README_ES.md)** | Seven linked comparisons across four operational areas: **−2 TN** inventory, **−500 ARS** settlement, **+200 ARS** freight, and two price spreads (**−10 / +5 ARS/TN**). | Find documentary gaps before closing stock, costs or settlements. |
+| **[MBA-PORT-001 · Restaurant profitability](case-studies/mba-port-001/README.md)** | Margin compression **28.35% → 22.17%**; a discount strategy changes from **+114,563.18 UM** to **−82,452.97 UM** when unit demand slips 1%. | Test commercial decisions before they damage contribution. |
+| **[Patio del Molino · SIPER-X operations](case-studies/patio-del-molino/README.md)** | **4,444,400 UM** sales and **151,998 UM** simplified operating result (**3.42%**); an **8%** purchase-cost stress flips the result negative. | Identify which controls deserve attention first. |
+
+**[Full agribusiness analysis in English](case-studies/siper-agro/README.md)** · **[Executive portfolio](EXECUTIVE_PORTFOLIO.md)**
+
+### What I deliver
+
+**01 · Financial and operational reconstruction.** Separate what the records establish from what still needs validation.
+
+**02 · Quantified decision pressure.** Show where margins, source discrepancies or commercial assumptions change the outcome.
+
+**03 · Management priorities.** Turn technical findings into a clear executive brief: evidence, owners, sequence and decision criteria.
+
+**04 · Verification.** Reproducible calculations, controlled inputs and tests that make results inspectable.
+
+### The right question is not “Do we need another dashboard?”
+
+It is **“Which decision are we about to make without knowing its true cost?”**
+
+My work connects technical rigor with business judgment. The objective is not to generate more reports; it is to help decision-makers **protect margin, expose avoidable uncertainty and act with evidence**.
+
+[**Talk to me about an operational or profitability diagnostic**](mailto:richardvera084@gmail.com?subject=Business%20diagnostic%20%7C%20Ricardo%20Vera) · [**Discuss a Business / Operations Analyst role**](mailto:richardvera084@gmail.com?subject=Analyst%20opportunity%20%7C%20Ricardo%20Vera)
+
+---
+
+## Research and decision systems
+
+[H6 — Mathematical research](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem) · [CS05 — Evidence integrity](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study) · [CS06 — Mechanism evaluation](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study) · [Decision Audit Sprint](DECISION_AUDIT_SPRINT.md)
+
+**Portfolio basis:** structured business test cases with published calculations and validation resources. Client-specific work is scoped and handled separately.
+
+**Ricardo Vera | CIEC LAB** · [Contact](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Business%20inquiry) · **Diagnose. Quantify. Verify. Decide.**

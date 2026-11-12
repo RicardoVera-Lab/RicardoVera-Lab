@@ -1,36 +1,36 @@
-# SIPER-AGRO — Informe de lectura gerencial
+# SIPER-AGRO | Dictamen gerencial de conciliación
 
-**CIEC LAB | Conciliación operativa y prioridades de revisión**
+**Dirección analítica:** Ricardo Vera · CIEC LAB
 
-## La pregunta que importa
+## Una decisión de cierre necesita números explicables
 
-Cuando los registros de stock, liquidaciones, cobros, fletes y precios muestran diferencias, la primera decisión no es ajustar cifras: es **determinar qué documentación permite explicar cada diferencia y quién debe validarla**.
+En el escenario analizado, el problema no fue la ausencia de registros. Fue la necesidad de **demostrar que las cifras de distintas áreas describían la misma operación**.
 
-## Hallazgos y plan de verificación
+## Matriz ejecutiva de decisiones
 
-| Área | Diferencia identificada | Verificación propuesta | Responsable sugerido | Cierre esperado |
-|---|---:|---|---|---|
-| Inventario | **−2 TN** entre cierre teórico y registrado | Recuento físico; remitos; movimientos; corte del período | Inventario / operaciones | Conciliación sustentada con comprobantes |
-| Tesorería | **−500 ARS** en una liquidación | Comprobantes; imputación; fecha efectiva de pago | Administración / tesorería | Saldo conciliado o diferencia documentada |
-| Logística | **+200 ARS** entre flete y registro de costos | Factura, ruta, conceptos incluidos y centro de costo | Logística / administración | Alcance y monto equivalentes |
-| Compras y ventas | **−10 y +5 ARS/TN** en dos pares de precios | Contrato, mercadería, calidad, fecha y condiciones comerciales | Compras / comercial | Comparación homogénea y explicada |
+| Frente | Evidencia encontrada | Primer control recomendado | Responsable sugerido |
+|---|---:|---|---|
+| Inventario | **−2 TN** respecto del cierre teórico | Revisar recuento, remitos, movimientos y corte | Operaciones / inventario |
+| Liquidaciones | **−500 ARS** entre liquidación y pagos registrados | Comprobar imputaciones, pagos, fechas y recibos | Tesorería / administración |
+| Transporte | **+200 ARS** entre flete y registro de costos | Comparar conceptos, servicio, factura y tarifa | Logística / administración |
+| Precios | **−10 y +5 ARS/TN** entre pares de compra/venta | Comparar productos, calidad, contratos y base comercial | Compras / comercial |
 
-**Otras verificaciones:** una liquidación y un registro de flete coinciden en los pares evaluados. Coincidencia documental no significa que toda la operación esté auditada.
+**Siete controles documentados:** tres discrepancias que requieren conciliación, dos diferencias de precio cuyo significado depende del contrato y dos comparaciones numéricas coincidentes.
 
-## Prioridades para una reunión de devolución
+## Orden recomendado
 
-**Primera prioridad — Inventario.** Confirmar el balance y preservar los documentos del corte. Una brecha física o documental de toneladas merece verificación antes de autorizar correcciones.
+**1 · Inventario.** Identificar si la variación nace de documentación, corte de período o conteo físico.
 
-**Segunda prioridad — Tesorería.** Identificar exactamente a qué obligación corresponden los cobros y si hay desfases de imputación o fecha.
+**2 · Tesorería.** Reconstruir el vínculo entre liquidación, comprobante y pago.
 
-**Tercera prioridad — Logística.** Revisar las bases de cálculo y comprobar que ambos registros incluyen los mismos conceptos.
+**3 · Logística.** Confirmar equivalencia de conceptos y destino contable.
 
-**Cuarta prioridad — Condiciones comerciales.** Comparar precios por tonelada únicamente después de homologar calidad, volumen, producto y términos de venta.
+**4 · Comercial.** Interpretar diferenciales por tonelada con términos comparables. Un margen de venta no es automáticamente un desvío.
 
-## Qué entregaría una consultoría
+## Resultado para la dirección
 
-Una matriz de diferencias, fuentes utilizadas, evidencia pendiente, responsables propuestos, criterios de cierre y agenda de seguimiento. La valorización de pérdidas, el ajuste de inventario o cualquier acción sobre pagos requiere documentación adicional y decisión humana autorizada.
+Una agenda con **hallazgo, referencia, responsable, evidencia pendiente y condición de cierre**. La verificación prioriza decisiones y evita transformar diferencias preliminares en ajustes sin respaldo.
 
-**Nota metodológica:** ejercicio demostrativo con registros sintéticos. Los importes ilustran conciliaciones, no pérdidas comprobadas ni resultados de un cliente real.
+**Base analítica:** caso operativo estructurado con datos de prueba y cálculos públicos reproducibles.
 
-[Volver al caso](../README_ES.md) · [Evidencia y alcance](EVIDENCE_AND_LIMITATIONS.md)
+[**Consultar un diagnóstico agroempresarial**](mailto:richardvera084@gmail.com?subject=SIPER-AGRO%20%7C%20Diagn%C3%B3stico) · [Ver código y datos](../README_ES.md)

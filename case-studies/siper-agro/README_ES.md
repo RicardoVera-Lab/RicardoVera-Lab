@@ -1,55 +1,67 @@
-# SIPER-AGRO | Inteligencia operativa para acopios y agroempresas
+# SIPER-AGRO | Un cierre sin conciliación es una decisión a ciegas
 
-### De los registros dispersos a decisiones gerenciales verificables
+### Inteligencia operativa para acopios, cerealeras y agroempresas
 
-**CIEC LAB · Ricardo Vera · Análisis empresarial e inteligencia operativa**
+**Dirección analítica: Ricardo Vera · CIEC LAB**
 
-Una empresa puede tener compras registradas, ventas documentadas, stock informado, liquidaciones y costos de transporte, y aun así no saber **qué diferencias comprometen la confiabilidad de su cierre operativo**.
+## ¿Tus números cierran porque están correctos o porque nadie los cruzó?
 
-SIPER-AGRO organiza esas fuentes, reconcilia registros vinculados y transforma las inconsistencias en una agenda de verificación para la gerencia.
+Una empresa puede tener todos los registros cargados y, aun así, desconocer qué está ocurriendo entre compras, ventas, stock, liquidaciones y fletes.
 
-**Este caso de portafolio utiliza datos sintéticos para demostrar el método; no corresponde a una consultoría realizada a un cliente.**
+**Ese vacío se transforma en tiempo perdido, discusiones internas y decisiones tomadas sobre cifras que todavía no fueron explicadas.**
 
-## Resultados del caso
+SIPER-AGRO aborda el problema con conciliación documental, trazabilidad por referencia y un criterio concreto de intervención gerencial.
 
-| Frente | Resultado | Qué conviene verificar |
+[**Consultar un diagnóstico**](mailto:richardvera084@gmail.com?subject=SIPER-AGRO%20%7C%20Diagn%C3%B3stico%20empresarial) · [**Ver informe gerencial**](docs/DECISION_BRIEF_ES.md)
+
+---
+
+## El análisis: siete cruces que cambian la conversación
+
+| Área | Resultado del cruce | Lo que la gerencia necesita resolver |
 |---|---:|---|
-| Inventario | **−2 toneladas** | Movimientos, remitos, recuento físico y fecha de corte |
-| Liquidaciones y cobros | **−500 ARS** | Imputación de pagos, comprobantes y fechas |
-| Logística | **+200 ARS** | Fletes, facturas y registro independiente de costos |
-| Precios de compra y venta | **−10 y +5 ARS/TN** | Producto, condiciones del contrato y base comparable |
+| **Inventario** | **−2 toneladas** | Verificar remitos, movimientos, recuento y fecha de corte |
+| **Liquidaciones** | **−500 ARS** | Identificar cobros pendientes de imputación o comprobación |
+| **Fletes** | **+200 ARS** | Comparar tarifa, factura, ruta y registro de costos |
+| **Precios comerciales** | **−10 y +5 ARS/TN** | Homologar producto, calidad, volumen y condiciones contractuales |
 
-**Balance del análisis:** cuatro familias conciliadas, siete comparaciones documentales, cinco diferencias para revisar y dos comparaciones coincidentes.
+**Balance técnico:** cuatro áreas, siete comparaciones, **tres diferencias documentales que exigen conciliación**, **dos diferenciales de precio que requieren contexto comercial** y **dos coincidencias numéricas**.
 
-El punto no es mostrar alertas por mostrar. El valor está en **saber dónde investigar primero**, qué información solicitar y qué condición debe cumplirse antes de cerrar una observación.
+Un precio de compra distinto del de venta no es, por sí mismo, una irregularidad. El análisis profesional separa un diferencial comercial de una inconsistencia documental.
 
-## Cómo se convierte en un servicio
+## Qué obtiene la empresa
 
-**Diagnóstico inicial.** Se define un período, el alcance de la operación y las fuentes disponibles.
+**Un diagnóstico que le permite a la dirección saber dónde mirar primero.**
 
-**Conciliación documentada.** Se cruzan compras, ventas, stock, liquidaciones, registros financieros y costos logísticos, conservando el vínculo con la evidencia.
+- **Registro de diferencias:** qué documentos no concilian y con qué referencia se vinculan.
+- **Mapa de responsables:** inventario, administración, logística y comercial, sin mezclar problemas distintos.
+- **Plan de verificación:** qué comprobantes solicitar y qué condición permite cerrar cada observación.
+- **Lectura ejecutiva:** decisiones priorizadas y respaldadas por cálculos reproducibles.
 
-**Lectura gerencial.** Las diferencias se traducen en preguntas concretas, prioridades de revisión y responsables sugeridos.
+## Cómo intervengo
 
-**Devolución y seguimiento.** Se acuerdan los comprobantes faltantes, los controles siguientes y el criterio para considerar resuelto cada hallazgo.
+**1. Delimito el problema.** Período, operación, fuentes y decisión empresarial que necesita respaldo.
 
-Este enfoque complementa el trabajo administrativo y contable: permite a la gerencia concentrarse en decisiones respaldadas por información verificable.
+**2. Reconstruyo los cruces.** Comparo registros bajo unidades y relaciones explícitas.
 
-## Evidencia técnica
+**3. Distingo anomalías de funcionamiento comercial normal.** Una diferencia aislada no alcanza para concluir pérdida, fraude o error.
 
-El caso público permite reproducir las siete comparaciones mediante Python, con **nueve pruebas automatizadas** y ejecución en GitHub Actions para Python 3.10, 3.12 y 3.13. La aplicación SIPER-AGRO completa permanece privada.
+**4. Entrego prioridades.** Evidencias faltantes, responsables, criterios de cierre y plan de seguimiento.
 
-[**Código de reproducción**](src/reproduce.py) · [**Datos del ejercicio**](data/synthetic_transactions.csv) · [**Pruebas**](tests/test_reproduce.py) · [**Lectura gerencial**](docs/DECISION_BRIEF_ES.md) · [**Alcance técnico**](docs/EVIDENCE_AND_LIMITATIONS.md)
+Mi trabajo es llevar la información dispersa hasta una **conclusión gerencial defendible**.
 
-## Qué puedo aportar a una empresa
+## Evidencia técnica verificable
 
-- Reconstruir diferencias entre registros y determinar qué evidencia falta.
-- Convertir inconsistencias operativas en un plan de verificación priorizado.
-- Traducir análisis técnico a lenguaje gerencial.
-- Diseñar controles y criterios de seguimiento para evitar cierres a ciegas.
+[**Registros del ejercicio**](data/synthetic_transactions.csv) · [**Código Python**](src/reproduce.py) · [**9 pruebas automatizadas**](tests/test_reproduce.py) · [**Resultados esperados**](results/expected.json) · [**Informe ejecutivo**](docs/DECISION_BRIEF_ES.md) · [**Alcance metodológico**](docs/EVIDENCE_AND_LIMITATIONS.md)
 
-**Ricardo Vera · CIEC LAB · Argentina**
+El caso documenta un escenario operativo de prueba con cálculos reproducibles. La aplicación empresarial de SIPER-AGRO es independiente del módulo público utilizado para verificar estas comparaciones.
 
-[**Consultar por un diagnóstico de operaciones**](mailto:richardvera084@gmail.com?subject=SIPER-AGRO%20%7C%20Consulta%20empresarial) · [**Contactar por oportunidades profesionales**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Oportunidad%20profesional)
+---
 
-[English case study](README.md) · [Portafolio ejecutivo](../../EXECUTIVE_PORTFOLIO.md)
+## ¿Tu empresa puede explicar cada diferencia antes de autorizar el cierre?
+
+**No alcanza con tener datos. Hay que convertirlos en control, criterio y decisión.**
+
+**Ricardo Vera** · Análisis empresarial e inteligencia operativa · CIEC LAB
+
+[**Solicitar un diagnóstico de operaciones**](mailto:richardvera084@gmail.com?subject=Quiero%20un%20diagn%C3%B3stico%20SIPER-AGRO) · [Portafolio ejecutivo](../../EXECUTIVE_PORTFOLIO.md) · [English case](README.md)

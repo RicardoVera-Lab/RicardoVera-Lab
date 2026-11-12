@@ -1,7 +1,7 @@
 """Public independent arithmetic reconstruction of SIPER-AGRO's synthetic demo.
 
-This is NOT the proprietary SIPER-AGRO engine, its risk model or its security layer.
-Only explicit relation IDs are grouped; no implied joins or currency conversions.
+This standalone module reproduces explicit documentary comparisons.
+Only linked relation IDs are grouped; no implied joins, invented price thresholds or currency conversions.
 """
 from __future__ import annotations
 
@@ -68,7 +68,9 @@ def compute(path: Path = DATA) -> list[dict[str, str]]:
         else:
             delta = one(roles, "sale_price") - one(roles, "purchase_price")
         results.append({"family": family, "relation_id": relation, "difference": str(delta),
-                        "unit": EXPECTED_UNITS[family], "status": "REVIEW" if delta else "MATCH"})
+                        "unit": EXPECTED_UNITS[family],
+                        "status": ("PRICE_CONTEXT" if family == "prices" and delta else
+                                   "REVIEW" if delta else "MATCH")})
     if not results:
         raise ValueError("No explicit reconciliations")
     return results
