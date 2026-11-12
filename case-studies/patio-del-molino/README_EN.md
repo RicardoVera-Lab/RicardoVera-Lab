@@ -1,43 +1,47 @@
-# Sales: 4.44 million. Simplified operating result: 151,998.
+# 4.44 million in sales. Just a 3.42% simplified operating margin.
 
-### SIPER-X + CIEC LAB | From operational signals to an executive decision
+### SIPER-X | Restaurant operations & profitability diagnostics
 
-**Ricardo Vera — Business Analysis · Operational Intelligence · Decision Systems**
+**Ricardo Vera · CIEC LAB | Business Analysis & Operational Intelligence**
 
-## The business question
+## A busy restaurant can still be one cost increase away from a negative result.
 
-A restaurant diagnostic produced an internal operating risk index of **80.04/100**, against **4,444,400 monetary units** in sales. The useful question was not whether the dashboard had warnings. It was **what required investigation, what the financial exposure looked like and what management should examine first**.
+The challenge is not seeing more alerts. It is deciding **which economic pressure deserves management attention first**.
 
-| Case figure | Value |
+| Financial measure | Modeled result |
 |---|---:|
 | Sales | **4,444,400 UM** |
-| Declared purchases / inputs | **1,911,092 UM** |
+| Declared purchases and inputs | **1,911,092 UM** |
 | Declared operating expenses | **2,381,310 UM** |
 | Simplified operating result | **151,998 UM** |
-| Simplified operating margin | **3.42%** |
-| Diagnostic hypotheses | **13** |
-| Distinct customer IDs reconciled | **35** |
+| Simplified margin | **3.42%** |
 
-### The stress test
+**The stress test:** an **8%** increase in declared purchases, with the other included figures unchanged, shifts the simplified operating result to **−889.36 UM**.
 
-If declared purchase costs rise by **8%**, keeping the other model amounts fixed, the result shifts to **−889.36 UM**. A thin margin changes how aggressively management should investigate purchasing, menu economics and waste.
+That is why decisions about pricing, stock, waste or staffing should begin with reconciled economics.
 
-### From indicators to decisions
+## Where management should look
 
-1. Reconstruct profitability by dish.
-2. Reconcile register activity and refund documents.
-3. Design a reversible inventory / waste pilot.
-4. Evaluate menu and beverage experiments using contribution—not gross sales alone.
-5. Reconcile customer segments across comparable periods before loyalty decisions.
+The SIPER-X diagnostic reports operational signals across waste, inventory, food-cost estimates, refunds, cashier differences and expense movements. Those signals are organized into five actionable review tracks:
 
-The **70% refund indicator** refers to **refund amount growth** (40,000 → 68,000 UM), not refund frequency or rate. Ticket averages without validated transaction identity and customer migration without comparable periods are not presented as conclusions.
+1. Reconcile contribution by item and recipe costs.
+2. Trace ticket and refund amounts to supporting records.
+3. Design an inventory and waste control pilot.
+4. Review menu and beverage mix by contribution rather than revenue alone.
+5. Validate customer identifiers and comparable periods.
 
-### What is demonstrated
+A reported **70% increase in refund amounts** is not a 70% increase in refund frequency. A reported menu food-cost indicator is not interchangeable with purchases divided by sales. Good analysis preserves those distinctions.
 
-A local web diagnostic, economic reconciliation, evidence boundaries, a five-track decision plan and a public Python reconstruction. The public materials show the findings and verification path without distributing proprietary application internals.
+## What I contribute
 
-[Executive brief](reports/EXECUTIVE_BRIEF.md) · [Reproduce financials](src/reproduce.py) · [Full Spanish case](README.md)
+**Financial reconstruction**, priority-setting, evidence standards, management-facing recommendations and a measurable four-week review structure.
 
-**For business leaders and hiring teams:** I work on finding where operational signals affect economics and what action the evidence can defend.
+[**Management brief**](reports/EXECUTIVE_BRIEF.md) · [**Methods**](docs/METHODOLOGY.md) · [**Python verification**](src/reproduce.py) · [**Source figures**](data/financial_snapshot.csv)
 
-[**Contact Ricardo Vera**](mailto:richardvera084@gmail.com?subject=Business%20Analysis%20%7C%20CIEC%20LAB) · [Executive portfolio](../../EXECUTIVE_PORTFOLIO.md)
+**Case basis:** structured operational test case using monetary units (UM). Core financial checks can be independently reproduced from published figures.
+
+## Know what is putting your restaurant's margin at risk.
+
+**Ricardo Vera | CIEC LAB** · Operational Intelligence & Business Analysis
+
+[**Request a profitability diagnostic**](mailto:richardvera084@gmail.com?subject=SIPER-X%20%7C%20Restaurant%20diagnostic) · [Ver el caso completo en español](README.md) · [Executive portfolio](../../EXECUTIVE_PORTFOLIO.md)

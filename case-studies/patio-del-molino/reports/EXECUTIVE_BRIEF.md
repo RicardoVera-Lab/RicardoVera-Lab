@@ -1,56 +1,61 @@
-# Patio del Molino — Executive Decision Brief
+# Patio del Molino | Dictamen gerencial de rentabilidad y operación
 
-**Período:** octubre de 2026 · **Dirección del análisis:** Ricardo Vera / CIEC LAB
+**SIPER-X · Dirección analítica: Ricardo Vera / CIEC LAB**
 
-## Executive question
+## Dictamen ejecutivo
 
-A business with **4,444,400 UM** in sales retains **151,998 UM** under a simplified purchases-and-expenses reconstruction. The margin is **3.42%**. Which areas deserve management attention before a price, staff or investment decision?
+**Con 4.444.400 UM de ventas y un resultado simplificado de 151.998 UM, el negocio presenta un margen modelado de apenas 3,42 %.**
 
-## Baseline
+La pregunta para la dirección no es cuántas alertas tiene el tablero. Es **cuál puede consumir ese margen y cuál merece una validación inmediata**.
 
-| Variable | UM |
+## Base cuantitativa
+
+| Concepto | UM |
 |---|---:|
-| Sales | 4,444,400 |
-| Declared purchases / supplies | 1,911,092 |
-| Gross proxy | 2,533,308 |
-| Declared operating expenses | 2,381,310 |
-| Simplified operating result | **151,998** |
+| Ventas | 4.444.400 |
+| Compras/insumos declarados | 1.911.092 |
+| Diferencia bruta por ventas menos compras | 2.533.308 |
+| Gastos operativos declarados | 2.381.310 |
+| **Resultado simplificado** | **151.998** |
 
-**Stress scenario:** 8% higher declared purchases with the other amounts fixed → **−889.36 UM**.
+Si el importe declarado de compras aumenta **8 %**, manteniendo constantes los otros valores incluidos, el resultado cambia a **−889,36 UM**. Esto representa una prueba de sensibilidad, no una pérdida ya producida.
 
-## Priorities for the director
+## Agenda directiva
 
-| Track | Gate | Evidence to obtain | Decision boundary |
-|---|---|---|---|
-| Recipe contribution | RESEARCH | Costed recipes; purchase prices; opening/closing inventory; fixed/variable expenses | Do not change prices on unverified per-item costs |
-| Refunds and cash | RESEARCH | Ticket ID, refund ID, receipts, daily closure | Refund *amount* change is not refund *frequency*; avoid attribution |
-| Waste and stock | PILOT DESIGN | Stock ledger, counts, discard logs, purchase receipts | Avoid adding overlapping stock differences and waste as independent losses |
-| Beverage/menu mix | PILOT DESIGN | Sales per item and transaction, true contribution margins, time comparisons | Revenue gain alone is not profit |
-| Customer segments | RESEARCH / HOLD | Unique IDs, segmentation dictionary, comparable periods | No inferred customer migration from one snapshot |
-
-### Key diagnostic signals
-
-- Waste indicator **14.7%**; stock deviation **6.4%**.
-- Menu food cost **43%**; operating expense variation **+19%**.
-- Refund amount rose from **40,000 to 68,000 UM** (**+70% by amount**).
-- Cash/ticket difference indicator **9.3%**.
-- Internal risk screening index **80.04/100**; **13 hypotheses** identified for structured review.
-
-The data establish **priorities for investigation**, not culpability or an automatic permission to alter operations.
-
-## Four-week implementation roadmap
-
-| Week | Management objective | Evidence of completion |
+| Frente | Acción a decidir | Evidencia necesaria |
 |---|---|---|
-| **1** | Freeze original records and organize documentation | Data inventory; accounting sources; identifiers and responsibilities |
-| **2** | Reconcile recipe costs, stock and cash; establish baseline | Reconciled by-item costs, exception list, validated denominators |
-| **3** | Define reversible pilots in stock/waste and commercial mix | Pilot contract, comparator, owner, stop rules |
-| **4** | Compare observed pilot outcomes and issue decision | Executive memo, accepted/rejected interventions, monitoring indicators |
+| **Contribución por plato** | RESEARCH | Recetas valorizadas, consumos, inventario y gastos |
+| **Caja y reembolsos** | RESEARCH | ID de ticket, ID de reintegro, comprobante y cierre |
+| **Merma y stock** | PILOT DESIGN | Movimientos, conteos y descartes por insumo |
+| **Carta y bebidas** | PILOT DESIGN | Ventas por producto, mix y margen de contribución |
+| **Clientes** | RESEARCH / HOLD | IDs y períodos comparables |
 
-## What the public reconstruction proves
+### Indicadores que originan la revisión
 
-The arithmetic of the baseline, refund *value* variation and the +8% purchase-cost sensitivity is reproducible from five published input measures. The public case also provides the indicator snapshot and the logic by which ambiguous measures are held for investigation.
+Merma informada **14,7 %**, diferencia stock/sistema **6,4 %**, indicador de food cost de carta **43 %**, variación de gastos **+19 %**, incremento de importes reembolsados **+70 %** (40.000 → 68.000 UM) y diferencia caja/ticket **9,3 %**.
 
-The underlying local application code, private operational files and internal decision machinery are not published.
+Los porcentajes son señales de diagnóstico. Para sostener decisiones económicas se necesitan definiciones, denominadores y documentos equivalentes. El costo de compras declarado no representa automáticamente consumo de mercadería vendido.
 
-**Prepared by Ricardo Vera | CIEC LAB** · [Contact](mailto:richardvera084@gmail.com?subject=Business%20decision%20brief)
+## Plan de cuatro semanas
+
+**Semana 1 — Reunir evidencia.** Congelar fuentes y asignar responsables de validación.
+
+**Semana 2 — Establecer línea base.** Conciliar ingresos, compras, inventario, caja y gastos.
+
+**Semana 3 — Diseñar controles.** Comparar pilotos reversibles, responsables y métricas.
+
+**Semana 4 — Resolver.** Evaluar evidencia, detener intervenciones que no superen criterios y documentar la decisión.
+
+## Resultado que recibe la dirección
+
+Un dictamen útil no consiste en una lista más larga de problemas. Consiste en **problemas priorizados, evidencia requerida, sensibilidad económica y próximos pasos medibles**.
+
+**Trazabilidad:** [datos financieros](../data/financial_snapshot.csv) · [indicadores operativos](../data/kri_snapshot.csv) · [código verificable](../src/reproduce.py) · [método](../docs/METHODOLOGY.md).
+
+**Base del análisis:** escenario de prueba con unidades monetarias y resultado simplificado por compras y gastos; los índices complementarios pertenecen al diagnóstico operativo.
+
+---
+
+**Ricardo Vera | CIEC LAB — Inteligencia operativa y diagnóstico empresarial**
+
+[**Solicitar evaluación de rentabilidad**](mailto:richardvera084@gmail.com?subject=Diagn%C3%B3stico%20ejecutivo%20SIPER-X) · [Volver al caso](../README.md)

@@ -1,98 +1,101 @@
-# El restaurante facturó 4,44 millones. Le quedaron 151.998.
+# Facturó 4,44 millones. Su margen apenas alcanzaba el 3,42 %.
 
-### SIPER-X + CIEC LAB | Diagnóstico operativo convertido en decisión empresarial
+### SIPER-X | Inteligencia operativa y diagnóstico de rentabilidad gastronómica
 
-**Ricardo Vera — Business Analysis · Operational Intelligence · Decision Systems**
+**Dirección del análisis: Ricardo Vera · CIEC LAB**
 
-> **La pregunta no era si el restaurante tenía problemas. Era cuál podía consumir primero su margen y qué evidencia necesitaba la dirección para actuar.**
+## Un restaurante puede estar lleno y tener muy poco margen para equivocarse.
 
-[**Executive summary in English**](README_EN.md) · [**Informe gerencial**](reports/EXECUTIVE_BRIEF.md) · [**Reproducir cifras**](src/reproduce.py) · [**Contactar**](mailto:richardvera084@gmail.com?subject=Diagn%C3%B3stico%20empresarial%20%7C%20CIEC%20LAB)
+Cuando los costos, el stock, los reembolsos y la operación empiezan a enviar señales al mismo tiempo, el verdadero desafío no es acumular alertas.
 
-## 01 | El diagnóstico, en números
+**Es identificar qué problema puede consumir primero la rentabilidad y qué decisión debería tomar el propietario.**
 
-| Indicador | Resultado |
-|---|---:|
-| Ventas del período | **4.444.400 UM** |
-| Compras/insumos declarados | **1.911.092 UM** |
-| Margen bruto aproximado por diferencia | **2.533.308 UM** |
-| Gastos operativos declarados | **2.381.310 UM** |
-| **Resultado operativo simplificado** | **151.998 UM** |
-| **Margen operativo simplificado** | **3,42 %** |
-| Índice interno de riesgo operativo | **80,04 / 100** |
-| Hipótesis operativas a investigar | **13** |
-| Clientes con identificador único | **35** |
+En el caso Patio del Molino, SIPER-X organiza señales operativas y el análisis ejecutivo las convierte en preguntas, prioridades y controles concretos.
 
-**En otras palabras:** sobre cada 100 UM de ventas, el modelo deja **3,42 UM** después de las compras declaradas y gastos incluidos. Con tan poco margen, una variación pequeña de costos merece investigación prioritaria.
-
-## 02 | La sensibilidad que cambia la conversación
-
-**¿Qué ocurre si los insumos cuestan 8 % más y el resto permanece igual?**
-
-| Escenario | Resultado simplificado |
-|---|---:|
-| Situación base | **+151.998 UM** |
-| Compras/insumos +8 % | **−889,36 UM** |
-
-Este cálculo no depende de una promesa de ahorro. Muestra **cuán estrecho es el margen de maniobra** y justifica revisar recetas, compras, inventario y estructura de gastos antes de una decisión comercial precipitada.
-
-## 03 | Las señales que valía la pena investigar
-
-- **Merma declarada:** 14,7 %.
-- **Diferencia inventario/sistema:** 6,4 %.
-- **Food cost de carta:** 43 %.
-- **Variación del importe de reembolsos:** +70 %, de 40.000 a 68.000 UM; **no es** la cantidad de operaciones anuladas.
-- **Diferencia caja/ticket:** 9,3 %.
-- **Variación del gasto operativo:** +19 %.
-
-No se sumaron tasas, diferencias de inventario y reembolsos como si fueran pérdidas independientes. La misma operación puede aparecer en más de un indicador.
-
-## 04 | De 13 señales a 5 líneas de decisión
-
-| Prioridad | Decisión | Qué se necesita para actuar |
-|---|---|---|
-| 1. Rentabilidad por plato | **Investigar** | Recetas, compras, consumo real, inventario y estructura de gastos |
-| 2. Caja y reembolsos | **Investigar** | Comprobantes, identificadores y conciliación operación por operación |
-| 3. Stock y merma | **Diseñar piloto** | Conteos físicos, movimientos y registros de descarte por insumo |
-| 4. Carta y bebidas | **Diseñar piloto** | Mix comercial por operación, precios y contribución por producto |
-| 5. Clientes | **Investigar / mantener** | Identificadores y períodos comparables; no inferir cambios de lealtad de una sola foto |
-
-**La decisión relevante:** el índice de riesgo prioriza la investigación; no sustituye una autorización gerencial. Cada frente tiene condiciones de evidencia y detención.
-
-## 05 | Lo que desarrollamos
-
-**SIPER-X:** aplicación web local que ordena ventas e indicadores, identifica alertas, prepara un informe y exporta un expediente trazable.
-
-**CIEC LAB:** revisión y conciliación económica, análisis de hipótesis, comprobación de métricas, evaluación de alternativas y diseño del plan gerencial.
-
-**Ricardo Vera:** dirección del problema de negocio, integración del análisis y presentación del criterio de decisión.
-
-El repositorio muestra el **resultado verificable de esa integración**: cifras públicas de la prueba, controles y metodología. La aplicación local y los mecanismos internos no forman parte del código publicado.
-
-## 06 | Cuatro semanas para convertir el diagnóstico en ejecución
-
-**Semana 1:** recopilar fuentes, identificadores y registros originales. **Semana 2:** conciliar costos, caja, stock y la línea base. **Semana 3:** diseñar pilotos reversibles con indicadores y reglas de detención. **Semana 4:** comparar resultados y elevar una decisión documentada.
-
-[**Abrir informe ejecutivo completo**](reports/EXECUTIVE_BRIEF.md)
-
-## 07 | Reproducción pública
-
-Python 3.10+, biblioteca estándar. La reconstrucción se calcula a partir del conjunto financiero del caso:
-
-    python case-studies/patio-del-molino/src/reproduce.py
-    python -m unittest discover -s case-studies/patio-del-molino/tests -v
-
-[Fuente financiera](data/financial_snapshot.csv) · [Indicadores operativos](data/kri_snapshot.csv) · [Metodología](docs/METHODOLOGY.md) · [Pruebas](tests/test_case.py)
-
-Los valores proceden de un escenario de prueba de restaurante, documentado en la metodología. La lectura financiera es una **aproximación gerencial**, no una contabilidad de costos por recetas cerrada.
+[**Consultar un diagnóstico**](mailto:richardvera084@gmail.com?subject=Diagn%C3%B3stico%20SIPER-X%20%7C%20Ricardo%20Vera) · [**Abrir informe gerencial**](reports/EXECUTIVE_BRIEF.md)
 
 ---
 
-## La pregunta para tu empresa
+## La radiografía financiera
 
-**¿Tenés ventas, pero no sabés qué está consumiendo el margen? ¿Conocés las alertas, pero no sabés qué decisión justificar?**
+| Variable reconstruida | Resultado |
+|---|---:|
+| Ventas declaradas | **4.444.400 UM** |
+| Compras e insumos declarados | **1.911.092 UM** |
+| Diferencia ventas menos compras | **2.533.308 UM** |
+| Gastos operativos declarados | **2.381.310 UM** |
+| **Resultado operativo simplificado** | **151.998 UM** |
+| **Margen operativo simplificado** | **3,42 %** |
 
-Puedo ayudarte a ordenar los datos, localizar presiones económicas y comparar alternativas con indicadores verificables.
+**Por cada 100 UM de venta, el ejercicio deja apenas 3,42 UM después de las compras y gastos incluidos.**
 
-**Ricardo Vera · CIEC LAB**
+Esta medida es una aproximación gerencial construida a partir de las cifras declaradas; no reemplaza el costo de consumo por receta.
 
-[**Solicitar un diagnóstico de negocio**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Diagn%C3%B3stico%20de%20rentabilidad) · [**Ver portafolio**](../../EXECUTIVE_PORTFOLIO.md)
+### ¿Qué pasa si las compras suben un 8 %?
+
+| Escenario | Resultado simplificado |
+|---|---:|
+| Referencia | **+151.998 UM** |
+| Compras +8 %, otras variables iguales | **−889,36 UM** |
+
+Una variación aparentemente moderada **borra por completo el resultado modelado**. Esa es la señal que justifica ordenar la discusión directiva.
+
+## Las señales que deben investigarse
+
+El diagnóstico SIPER-X reúne indicadores de merma, inventario, carta, caja, reembolsos y gastos. Entre los valores informados aparecen:
+
+- **14,7 %** de merma en un indicador operativo.
+- **6,4 %** de diferencia inventario/sistema.
+- **43 %** en el indicador reportado de food cost de carta.
+- **+70 %** en importe de reembolsos: de 40.000 a 68.000 UM.
+- **9,3 %** en la diferencia caja/ticket.
+- **+19 %** en la variación de gasto operativo.
+
+Los indicadores describen **áreas de revisión**. El 43 % reportado no surge de dividir compras declaradas por ventas; requiere el contraste de recetas, consumos e inventarios. El +70 % corresponde a importes, no a la cantidad de reembolsos.
+
+## De los datos a cinco decisiones gerenciales
+
+| Frente | Decisión inmediata |
+|---|---|
+| **Rentabilidad por plato** | Conciliar recetas, compras, consumo y contribución real |
+| **Caja y reembolsos** | Vincular tickets, anulaciones y comprobantes |
+| **Inventario y desperdicio** | Diseñar conteos y controles de merma |
+| **Carta y bebidas** | Analizar mix y contribución antes de cambiar precios |
+| **Clientes** | Validar identificadores y períodos antes de inferir fidelidad |
+
+**Resultado:** una agenda de intervención ordenada. Las hipótesis de riesgo no se convierten automáticamente en pérdidas ni en autorizaciones para modificar la operación.
+
+## Mi metodología de intervención
+
+**Semana 1 — Evidencia.** Reunir fuentes, responsables, registros y criterios de medición.
+
+**Semana 2 — Conciliación.** Separar costos, stock, caja y variables todavía no verificadas.
+
+**Semana 3 — Diseño de piloto.** Definir alternativa, responsable, indicador y condición de detención.
+
+**Semana 4 — Decisión.** Comparar resultados y emitir un dictamen gerencial.
+
+[**Leer el informe ejecutivo**](reports/EXECUTIVE_BRIEF.md) · [**Ver el método**](docs/METHODOLOGY.md)
+
+## Evidencia que podés revisar
+
+[Registros financieros](data/financial_snapshot.csv) · [Indicadores](data/kri_snapshot.csv) · [Reproducción Python](src/reproduce.py) · [Pruebas](tests/test_case.py)
+
+Desde la raíz del repositorio, con Python 3.10+:
+
+```bash
+python case-studies/patio-del-molino/src/reproduce.py
+python -m unittest discover -s case-studies/patio-del-molino/tests -v
+```
+
+**Ficha del caso:** diagnóstico empresarial de prueba con cifras en unidades monetarias. Las cuentas financieras centrales y el escenario de sensibilidad son reproducibles; los indicadores complementarios provienen del diagnóstico SIPER-X.
+
+---
+
+## ¿Conocés tu facturación, pero no qué está consumiendo tu margen?
+
+**No esperes a que una caída de caja convierta en urgente lo que hoy ya puede medirse.**
+
+**Ricardo Vera · CIEC LAB** · Inteligencia operativa · Análisis de negocios · Diagnóstico de rentabilidad
+
+[**Solicitar un diagnóstico empresarial SIPER-X**](mailto:richardvera084@gmail.com?subject=Quiero%20un%20diagn%C3%B3stico%20SIPER-X) · [English summary](README_EN.md) · [Portafolio](../../EXECUTIVE_PORTFOLIO.md)

@@ -1,57 +1,56 @@
-# More sales. Less margin. A decision problem worth investigating.
+# Higher sales. Lower margin. The numbers tell you where to look.
 
-### Executive case MBA-PORT-001 · Restaurant profitability and operational decision intelligence
+### MBA-PORT-001 | Restaurant profitability & commercial decision intelligence
 
-**Ricardo Vera | Business Analysis · Operational Intelligence · CIEC LAB**
+**Ricardo Vera · CIEC LAB | Business Analysis · Operational Intelligence**
 
-> **Revenue growth is not a profitability strategy.** The relevant question is where margin is being absorbed—and which intervention remains sound when customers, costs and operations react.
+## When revenue rises but margin falls, what are you really growing?
 
-## The business problem
+An operation can look healthy on its sales report while its ability to convert revenue into operating results is weakening.
 
-A 12-month restaurant case recorded **32,473,404.18 UM** in annual net sales and **8,211,449.91 UM** in simplified operating profit. Monthly operating margin fell from **28.35% in January to 22.17% in December**: **6.18 percentage points of erosion**.
+This restaurant case reconstructs **12 months across 14 products**, reconciles cost and sales data, and tests commercial interventions against demand sensitivity.
 
-The analysis traced ingredient costs from **36.23% to 44.29% of net sales**, waste from **0.43% to 0.97%**, and delivery from **2.27% to 3.28%** over those months.
+| Decision metric | Reconstructed result |
+|---|---:|
+| Annual net sales | **32,473,404.18 UM** |
+| Simplified annual operating result | **8,211,449.91 UM** |
+| Annual margin | **25.29%** |
+| January margin | **28.35%** |
+| December margin | **22.17%** |
+| Margin erosion | **6.18 percentage points** |
 
-## The finding that changes management action
+### One decision, two very different outcomes
 
-A 15% reduction in discounts produces **+114,563.18 UM** in modeled annual operating profit *if units do not fall*. A **1% unit decline** reverses it to **−82,452.97 UM versus baseline**. Likewise, a 5% increase in one product's price produces **+95,150.38 UM** with 3% fewer units but **−10,419.55 UM** with 8% fewer units.
+A modeled **15% reduction in discounts** improves operating result by **114,563.18 UM** if unit demand remains unchanged. A mere **1% decrease in units** reverses the result to **−82,452.97 UM versus baseline**.
 
-**Decision:** test demand behavior before changing prices or discounts. Design a controlled waste-management pilot or staffing-coverage pilot without booking hypothetical savings. Keep an auditable baseline.
+A **5% price increase on SKU-001** generates **+95,150.38 UM** at a 3% unit decline but **−10,419.55 UM** at an 8% unit decline.
 
-## What this case delivers
+**The management lesson:** a policy should survive a reasonable stress test before it changes the business.
 
-- Financial reconciliation across sales, recipe cost, waste, delivery, operating expenses and inventory.
-- Product-level price and discount scenarios with explicit demand sensitivities.
-- Five-option executive decision matrix with stop conditions.
-- Operational intervention states, cancellation and reversal controls.
-- Four CSV input sources, independently regenerable outputs, and an automated Python test suite.
+## What I demonstrate
 
-**Case data:** synthetic 2025 data, 14 products over 12 months, denominated in monetary units (UM). [Methodology and calculations](docs/METHODOLOGY.md).
+- **Reconciliation:** sales, inventory, recipe costs, waste, delivery and operating expenses.
+- **Commercial evaluation:** price and discount sensitivities on a common baseline.
+- **Decision discipline:** hold, research or design a controlled pilot — no invented savings.
+- **Operational controls:** example pilot-slot reservation, cancellation and referenced reversal.
+- **Verification:** repeatable Python calculations, frozen inputs, automated tests and documented methodology.
 
-| Document | Purpose |
-|:--|:--|
-| [Executive decision](reports/EXECUTIVE_DECISION.md) | Management findings and next actions |
-| [Financial results](outputs/RESULTS.json) | Exact baseline and scenario values |
-| [Option matrix](outputs/OPTION_MATRIX.csv) | Decision categories |
-| [Testing](docs/TESTING.md) | Reproducibility |
+[**Executive decision**](reports/EXECUTIVE_DECISION.md) · [**Results**](outputs/RESULTS.json) · [**Tests**](docs/TESTING.md) · [**Methodology**](docs/METHODOLOGY.md).
 
-## Reproduce
-
-Python 3.10+, standard library only:
+From the repository root:
 
 ```bash
+cd case-studies/mba-port-001
 python -m src.restaurant_case --check-anchors
 python -m src.operational_controls
 python -m unittest discover -s tests -v
 python tools/verify_manifest.py
 ```
 
-## For decision-makers
+**Case basis:** structured 2025 test data, with financial results in monetary units (UM).
 
-**Know which revenue converts into margin—and which proposed fix might destroy it.**
+## Know what is consuming margin before you change prices.
 
-Ricardo Vera works on business analysis, operational intelligence, profitability diagnostics and defensible management decisions.
+**Ricardo Vera | CIEC LAB** · Business Analysis & Operational Intelligence
 
-**Executive contact:** [richardvera084@gmail.com](mailto:richardvera084@gmail.com?subject=Business%20profitability%20diagnostic%20%7C%20CIEC%20LAB). Include your industry, the problem and the decision at stake.
-
-[Full Spanish case](README.md) · [CIEC LAB portfolio](https://github.com/RicardoVera-Lab)
+[**Discuss a profitability diagnostic**](mailto:richardvera084@gmail.com?subject=Restaurant%20profitability%20diagnostic) · [Full case in Spanish](README.md) · [Executive portfolio](../../EXECUTIVE_PORTFOLIO.md)

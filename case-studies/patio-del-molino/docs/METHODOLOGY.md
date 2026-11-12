@@ -2,7 +2,7 @@
 
 ## Case scope
 
-Patio del Molino is a constructed restaurant test case. This publication uses the **October 2026** operational diagnostic produced by the SIPER-X application and the consolidated executive analysis. Figures are in **monetary units (UM)**. Its purpose is to make the financial checks and decision framing inspectable.
+The October 2026 Patio del Molino case documents a structured operational diagnostic produced by the local SIPER-X application and the executive analytical reconstruction. The underlying dataset is a constructed business test scenario. Figures are in **monetary units (UM)**. The public scope makes the financial checks and decision framing inspectable. The reported menu food-cost indicator (43%) is a screening input, not a ratio derived from declared purchases divided by sales.
 
 ## Source alignment
 

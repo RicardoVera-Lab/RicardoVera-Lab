@@ -1,121 +1,113 @@
-# El restaurante vendía más. Pero cada venta dejaba menos margen.
+# Vendía más. Pero cada mes se quedaba con menos margen.
 
-### Caso ejecutivo MBA-PORT-001 · Rentabilidad, inteligencia comercial y decisiones operativas
+### MBA-PORT-001 | Inteligencia de rentabilidad y decisiones comerciales para restaurantes
 
-**Ricardo Vera | Business Analysis · Operational Intelligence · CIEC LAB**
+**Ricardo Vera · CIEC LAB | Análisis empresarial e inteligencia operativa**
 
-> **Facturar más no significa ganar más.** Cuando el margen se deteriora, decidir sin reconciliar costos, inventario y respuesta de la demanda puede convertir una solución atractiva en otro problema.
+## ¿De qué sirve facturar más si cada venta deja menos?
 
-**El resultado:** se reconstruyeron 12 meses de actividad, se identificaron los principales componentes de la presión sobre el margen y se compararon cinco caminos de decisión mediante cálculos reproducibles, sensibilidad comercial y controles operativos.
+En gastronomía, el peligro no siempre es que falten clientes. A veces es más difícil de detectar: **el local trabaja más, vende más y convierte cada vez menos facturación en resultado**.
 
-**[Ver el dictamen ejecutivo](reports/EXECUTIVE_DECISION.md) · [Examinar los resultados](outputs/RESULTS.json) · [Reproducir los cálculos](#reproducir-el-análisis) · [Solicitar un diagnóstico](#conversación-ejecutiva)**
+Este caso pone los números sobre la mesa, identifica dónde se comprime la rentabilidad y demuestra por qué algunas decisiones comerciales aparentemente razonables pueden empeorar la situación.
+
+[**Ver dictamen ejecutivo**](reports/EXECUTIVE_DECISION.md) · [**Examinar resultados**](outputs/RESULTS.json) · [**Solicitar diagnóstico**](mailto:richardvera084@gmail.com?subject=Diagn%C3%B3stico%20de%20rentabilidad%20%7C%20Ricardo%20Vera)
 
 ---
 
-## El problema, en números
+## El dato que debería preocupar al dueño
 
-| Indicador | Hallazgo |
-|:--|--:|
+| Indicador del modelo | Resultado |
+|---|---:|
 | Ventas netas anuales | **32.473.404,18 UM** |
-| Resultado operativo simplificado anual | **8.211.449,91 UM** |
+| Resultado operativo simplificado | **8.211.449,91 UM** |
 | Margen operativo anual | **25,29 %** |
-| Margen operativo en enero | **28,35 %** |
-| Margen operativo en diciembre | **22,17 %** |
-| Deterioro enero–diciembre | **−6,18 puntos porcentuales** |
-| Productos / período analizado | **14 SKU · 12 meses** |
+| Margen de enero | **28,35 %** |
+| Margen de diciembre | **22,17 %** |
+| Deterioro del margen | **−6,18 puntos porcentuales** |
+| Cobertura del análisis | **14 productos · 12 meses** |
 
-Las ventas netas de diciembre superaban las de enero, pero el negocio retenía una menor proporción de cada venta. La pregunta correcta no era *«¿cómo hacemos para vender más?»*, sino **«¿qué está absorbiendo el margen y qué intervención conviene probar sin generar una pérdida mayor?»**
+**La facturación creció. La calidad económica de esa facturación se deterioró.** La caída del margen no se explica mirando únicamente la caja.
 
-### Dónde estaba la presión
+### Dónde aparece la presión
 
-| Componente como % de ventas netas | Enero | Diciembre | Variación |
-|:--|--:|--:|--:|
-| Costo de receta | 36,23 % | 44,29 % | **+8,06 p. p.** |
+| Costo como porcentaje de venta neta | Enero | Diciembre | Variación |
+|---|---:|---:|---:|
+| Costo de recetas | 36,23 % | 44,29 % | **+8,06 p. p.** |
 | Merma | 0,43 % | 0,97 % | **+0,54 p. p.** |
 | Delivery | 2,27 % | 3,28 % | **+1,01 p. p.** |
 
-**Lectura gerencial:** el costo de los ingredientes es el frente principal a revisar; el desperdicio y la entrega agregan presión. La conclusión surge de conciliar ventas, consumo e inventario, no de atribuir automáticamente el problema al personal o al alquiler.
+La dirección tiene una pregunta más útil que “¿vendemos más?”: **“¿qué está absorbiendo el margen y cuánto más podemos tolerar?”**
 
-## El hallazgo que cambia una decisión comercial
+## La decisión comercial que parecía funcionar
 
-**Reducir descuentos parecía una victoria inmediata.** El modelo calculó **+114.563,18 UM** frente a la situación base cuando se mantuvo el volumen de ventas. Pero al incorporar apenas **1 % de caída en unidades**, la misma iniciativa pasó a **−82.452,97 UM**.
+Supongamos que se reducen los descuentos un **15 %**.
 
-| Decisión analizada | Supuesto de demanda | Diferencia anual contra base | Resolución |
-|:--|:--|--:|:--|
-| H1 · Precio de SKU-001 +5 % | Unidades −3 % | **+95.150,38 UM** | Investigar demanda |
-| H1 · Prueba de estrés | Unidades −8 % | **−10.419,55 UM** | Detener ese escenario |
-| H2 · Reducir descuentos 15 % | Unidades estables | **+114.563,18 UM** | Investigar demanda |
-| H2 · Prueba de estrés | Unidades −1 % | **−82.452,97 UM** | Detener ese escenario |
+- Con las unidades vendidas constantes, el modelo proyecta **+114.563,18 UM** respecto de la referencia.
+- Si las unidades caen apenas **1 %**, la misma medida pasa a **−82.452,97 UM** respecto de la referencia.
 
-**La diferencia entre un análisis y una decisión:** un aumento potencial de ganancias no se trata como ganancia realizada. Se incorpora el comportamiento posible del cliente, se calcula el costo del error y se decide qué información falta antes de tocar un precio.
+El cambio de resultado entre ambos escenarios es decisivo. **Una medida que luce rentable en la planilla puede destruir valor si nadie prueba su sensibilidad frente al cliente.**
 
-## Qué se construyó
+También se contrastó un incremento de precio del 5 % en un producto:
 
-**01 · Diagnóstico financiero.** Reconstrucción de ventas, descuentos, costo de recetas, merma, delivery, gastos, resultado y márgenes por mes.
+| Escenario | Cambio de resultado frente a referencia |
+|---|---:|
+| Precio SKU-001 +5 %, unidades −3 % | **+95.150,38 UM** |
+| Precio SKU-001 +5 %, unidades −8 % | **−10.419,55 UM** |
+| Descuentos −15 %, unidades estables | **+114.563,18 UM** |
+| Descuentos −15 %, unidades −1 % | **−82.452,97 UM** |
 
-**02 · Conciliación de inventario.** Cruce entre unidades vendidas, consumo de ingredientes, movimientos de inventario y desperdicios; las inconsistencias detienen el proceso.
+**Mi criterio de intervención:** ninguna política de precios debería aprobarse solo porque el escenario optimista ofrece una mejora.
 
-**03 · Ingeniería comercial.** Escenarios de precio y descuentos con sensibilidad al volumen, comparación contra una referencia común y condiciones de detención.
+## Lo que estructuré
 
-**04 · Diseño operativo.** Dos líneas de intervención —control de lotes/mermas y redistribución de horarios— tratadas como pilotos alternativos, con indicadores y criterios de aceptación.
+**01 · Rentabilidad reconstruida.** Ventas, descuentos, costos por receta, inventario, merma, delivery y gastos operativos.
 
-**05 · Gobierno de ejecución.** Controles demostrables para reservar una intervención, impedir superposiciones, cancelar antes de ejecutar y exigir reversión documentada después de ejecutar.
+**02 · Ingeniería comercial.** Alternativas de precio y descuento comparadas contra la misma línea base.
 
-**06 · Verificación reproducible.** Cuatro fuentes CSV, código Python sin paquetes externos, pruebas automatizadas y resultados regenerables a partir de los mismos insumos.
+**03 · Sensibilidad y condiciones de detención.** Qué pasa cuando cae la demanda y en qué escenarios conviene frenar.
 
-## Decisión ejecutiva
+**04 · Diseño de intervención.** Dos pilotos alternativos: control de lotes/merma y cobertura horaria.
 
-| Alternativa | Resolución | Próximo movimiento |
-|:--|:--|:--|
-| H0 · Mantener referencia | **HOLD** | Seguir midiendo contra la base |
-| H1 · Ajustar precio | **RESEARCH** | Medir sensibilidad de la demanda |
-| H2 · Reducir descuentos | **RESEARCH** | Comprobar respuesta de clientes |
-| A · Controlar lotes y merma | **DESIGN PILOT** | Diseñar prueba con indicadores |
-| B · Redistribuir cobertura horaria | **DESIGN PILOT** | Preparar piloto alternativo |
+**05 · Gobierno de ejecución.** Reservas, cancelaciones y reversión referenciada en un modelo demostrativo de control.
 
-Las opciones A y B compiten por una sola ventana de prueba. No se les atribuye un ahorro monetario sin cálculo. La decisión evita sumar beneficios incompatibles o ejecutar una medida solo porque se ve atractiva en una planilla.
+**06 · Comprobación técnica.** Fuentes CSV, cálculos deterministas en Python, pruebas automatizadas y archivos de resultados.
 
-## Evidencia que un decisor puede revisar
+## Resolución de gerencia
 
-| Entregable | Qué permite verificar |
-|:--|:--|
-| [Cuenta de resultados y escenarios](outputs/RESULTS.json) | Montos, supuestos y sensibilidades exactos |
-| [Serie de indicadores mensuales](outputs/MONTHLY_METRICS.csv) | Evolución de ventas, resultado y margen |
-| [Matriz de alternativas](outputs/OPTION_MATRIX.csv) | Opciones, criterios y decisiones |
-| [Informe ejecutivo](reports/EXECUTIVE_DECISION.md) | Diagnóstico y recomendación gerencial |
-| [Metodología](docs/METHODOLOGY.md) | Reglas contables, alcance y supuestos |
-| [Pruebas](tests/test_restaurant_case.py) | Conciliaciones, escenarios y casos adversos |
-| [Control operativo](src/operational_controls.py) | Cancelación, reserva y reversión |
+| Alternativa | Decisión |
+|---|---|
+| **H0 · Mantener referencia** | Continuar midiendo |
+| **H1 · Modificar precio** | Investigar respuesta de demanda |
+| **H2 · Reducir descuentos** | Validar elasticidad antes de intervenir |
+| **A · Reducir merma** | Diseñar piloto medible |
+| **B · Ajustar cobertura horaria** | Diseñar piloto alternativo |
 
-**Base del caso:** 168 registros mensuales por producto y 36 registros operativos, de gastos e inventario; datos sintéticos, período enero–diciembre de 2025; cifras expresadas en unidades monetarias (UM). La metodología explica las reglas del modelo en detalle.
+No asigné ahorros a los pilotos A y B sin medición. La prioridad es **probar la intervención correcta**, no sumar promesas que el dato todavía no respalda.
 
-## Reproducir el análisis
+## Reproducí el análisis
 
-**Requisito:** Python 3.10+; únicamente biblioteca estándar.
+Fuentes: [ventas por producto](data/ventas_sku_mes.csv), [operación](data/operacion_mes.csv), [gastos](data/gastos_mes.csv) e [inventario](data/inventario_mes.csv).
+
+Resultados: [cifras y escenarios](outputs/RESULTS.json) · [indicadores mensuales](outputs/MONTHLY_METRICS.csv) · [matriz de decisión](outputs/OPTION_MATRIX.csv) · [pruebas](tests/test_restaurant_case.py) · [metodología](docs/METHODOLOGY.md).
+
+Desde la raíz del repositorio, con Python 3.10+:
 
 ```bash
+cd case-studies/mba-port-001
 python -m src.restaurant_case --check-anchors
 python -m src.operational_controls
 python -m unittest discover -s tests -v
 python tools/verify_manifest.py
 ```
 
-En Windows, reemplazar `python` por `py -3` si corresponde. La ejecución recalcula los resultados en `outputs/`. La validación automatizada se define en `.github/workflows/validate.yml`. Ver [instrucciones de pruebas](docs/TESTING.md).
+**Ficha técnica:** modelo empresarial reproducible con datos estructurados de prueba correspondientes a 2025; los importes están expresados en unidades monetarias (UM), no en una moneda nacional.
 
-## La pregunta para tu empresa
+---
 
-**¿Sabés qué parte de tu facturación se está convirtiendo en margen y cuál se está perdiendo por costos, mermas, precios, inventario o ejecución?**
+## ¿Cuánto margen está perdiendo tu restaurante sin darse cuenta?
 
-Un diagnóstico serio debería entregarte algo más útil que gráficos: **cifras reconciliadas, riesgos medidos, alternativas comparables y una decisión accionable**.
+Puedo ayudarte a reconstruir el problema, identificar qué variable lo está provocando y comparar decisiones comerciales y operativas **antes de apostar la rentabilidad a una intuición**.
 
-### Conversación ejecutiva
+**Ricardo Vera | CIEC LAB** · Especialista en análisis empresarial, inteligencia operativa y decisiones de rentabilidad
 
-**Ricardo Vera** — Análisis de negocios, inteligencia operativa y apoyo a decisiones de gestión.
-
-**Consultoría:** diagnóstico de rentabilidad, análisis de costos y productos, evaluación comercial, controles operativos y modelos de decisión reproducibles.
-
-**Contacto:** [richardvera084@gmail.com](mailto:richardvera084@gmail.com?subject=Diagn%C3%B3stico%20de%20rentabilidad%20%7C%20CIEC%20LAB)
-
-Para iniciar, enviá **el problema de negocio, el sector y la decisión que necesitás tomar**. El objetivo de la primera conversación es delimitar un diagnóstico útil y sus entregables.
-
-**[English executive summary](README_EN.md) · [Más trabajos de CIEC LAB](https://github.com/RicardoVera-Lab)**
+[**Solicitar un diagnóstico ejecutivo de rentabilidad**](mailto:richardvera084@gmail.com?subject=Quiero%20analizar%20la%20rentabilidad%20de%20mi%20negocio) · [**English summary**](README_EN.md) · [Portafolio](../../EXECUTIVE_PORTFOLIO.md)
