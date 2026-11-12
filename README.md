@@ -1,70 +1,70 @@
 <div align="center">
 
 # CIEC LAB
-### Research · Business Analysis · Decision Intelligence
+### Business Analysis · Operational Intelligence · Research & Decision Systems
 
-## When the numbers look healthy but the decision is wrong, the cost is real.
+## Better decisions begin with evidence you can verify.
 
-**Ricardo Vera** — Business Analysis · Operational Intelligence · Research & Decision Systems
+**Ricardo Vera** — Business Analysis · Operations · Decision Intelligence
 
-**I investigate what is happening, test what might work, and make the reasoning inspectable.**
+I connect scattered business records, quantify operational signals and turn the findings into focused management actions.
 
-[**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) · [**Restaurant decision case**](case-studies/mba-port-001/README.md) · [**Diagnostic-to-decision case**](case-studies/patio-del-molino/README.md) · [**Agribusiness documentary case**](case-studies/siper-agro/README.md) · [**Contact**](mailto:richardvera084@gmail.com?subject=Business%20Analysis%20%7C%20CIEC%20LAB)
+[**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) · [**Agribusiness case**](case-studies/siper-agro/README.md) · [**Restaurant profitability**](case-studies/mba-port-001/README.md) · [**Restaurant operations**](case-studies/patio-del-molino/README.md) · [**Contact**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Business%20inquiry)
 
 </div>
 
 ---
 
-## Three business cases. Three distinct decision problems.
+## Three business challenges. One evidence-first method.
 
-| Proof of work | Business question | Verified case finding | What the work demonstrates |
+| Case | The management question | Findings demonstrated | Competence |
 |---|---|---|---|
-| **[MBA-PORT-001 — Profitability Under Pressure](case-studies/mba-port-001/README.md)** | Why does revenue increase while profit conversion deteriorates? | Operating margin fell from **28.35% to 22.17%**. Cutting discounts appears worth **+114,563.18 UM**, but a **1% drop in unit demand** changes that to **−82,452.97 UM** versus baseline. | Financial reconciliation, scenario sensitivity, controlled decisions, Python tests. |
-| **[SIPER-X → CIEC LAB — Patio del Molino](case-studies/patio-del-molino/README.md)** | Which signals matter when a restaurant is losing operating room? | On **4,444,400 UM** of sales, the simplified operating result was **151,998 UM (3.42%)**. Operational risk index **80.04/100** and **13 investigation hypotheses** were organized into five decision tracks. | Web-based operational diagnosis, risk analysis, economic reconstruction, evidence checks, management roadmap. |
+| **[SIPER-AGRO — Agribusiness Operational Intelligence](case-studies/siper-agro/README.md)** | Where do inventory, settlements, logistics and commercial records stop agreeing—and what should management review first? | **4 reconciliation areas, 7 linked comparisons**, including **−2 TN** in inventory, **−500 ARS** in settlements, **+200 ARS** in freight and **−10 / +5 ARS/TN** in prices. | Cross-source reconciliation, data quality, reproducible Python checks and decision-focused reporting. |
+| **[MBA-PORT-001 — Profitability Under Pressure](case-studies/mba-port-001/README.md)** | Why does revenue improve while margin conversion weakens? | Operating margin **28.35% → 22.17%**; scenario testing reveals how a seemingly attractive discount decision changes under lower demand. | Financial analysis, sensitivity tests and decision controls. |
+| **[Patio del Molino — Operational Intelligence](case-studies/patio-del-molino/README.md)** | Which operating signals deserve attention when profits are narrow? | Simplified operating result **151,998 UM (3.42%)** on **4,444,400 UM** sales; **13** investigation hypotheses grouped into five decision tracks. | Operational diagnostics, risk prioritization and management roadmap. |
 
-| **[SIPER-AGRO — Agribusiness documentary reconciliation](case-studies/siper-agro/README.md)** | How should a grain storage/trading company investigate discrepancies between its inventory, settlements, freight and price records? | **4/4** synthetic documentary families calculated; **7** explicit comparisons: **5** non-zero discrepancies and **2** matching pairs. Inventory **-2 TN**, settlement **-500 ARS**, freight **+200 ARS**, prices **-10 / +5 ARS/TN**. | Evidence-based operational analysis, explicit linking, data-quality gates, public decimal-arithmetic reconstruction and nine tests. |
+**[Read the SIPER-AGRO case in Spanish](case-studies/siper-agro/README_ES.md)**
 
-**The difference:** an alert is not a conclusion; a dashboard is not a decision. We connect the numbers to an action that can be justified, checked and stopped.
+The portfolio uses illustrative, synthetic datasets to document analytical approaches. The calculations and public validation files can be reviewed independently within each case.
 
-## What a hiring manager can inspect in five minutes
+## What I bring to an engagement
 
-1. **Business judgment:** the executive findings and decision criteria in all three cases.
-2. **Quantitative work:** revenue, costs, margins, sensitivity scenarios and operational indicators.
-3. **Technical execution:** Python source, reproducible calculations and automated tests.
-4. **Evidence discipline:** inconsistent metrics are reconciled or marked unavailable rather than presented as fact.
-5. **Communication:** concise recommendations that translate technical results into management priorities.
+**Understand the problem.** Define the operational or financial question worth solving and identify what can be measured.
+
+**Reconstruct the facts.** Reconcile data sources, test inconsistencies, document limitations and build a reliable baseline.
+
+**Translate evidence into decisions.** Separate signals from conclusions, prioritize what to investigate, compare options and clarify the next action.
+
+**Deliver a usable output.** Executive findings, reproducible calculations, evidence requests, owners, checkpoints and follow-up criteria.
 
 ### Relevant roles
-**Business Analyst · Operations Analyst · Decision Intelligence Analyst · Research Analyst · Model / Systems Evaluation · Business Performance Consultant**
 
-### A working engagement, not a slide deck
+**Business Analyst · Operations Analyst · Data / BI Analyst · Operational Risk · Decision Intelligence · Research / Systems Evaluation**
 
-For a business performance problem, the proposed delivery combines a data intake, a reconciled baseline, a prioritized risk map, an economic analysis of alternatives and a four-week decision plan. Scope is defined by the data and the decision at stake.
+### Consulting focus
 
-[**Discuss a business diagnostic**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Business%20diagnostic) · [**Discuss a role or contract**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Business%20Analyst%20opportunity)
+Operational diagnostics, financial performance, cross-system reconciliation, management reporting and evidence-based improvement plans.
+
+[**Discuss a business diagnostic**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Operational%20Diagnostic) · [**Discuss an analyst role or contract**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Analyst%20Opportunity)
 
 ---
 
-## Research beyond business operations
+## Technical and research portfolio
 
-My portfolio also includes scientific and technical investigation with publicly inspectable artifacts:
-
-- [**Mathematical research — H6**](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem): computer-assisted work with proof structure and verification material.
-- [**CS05 — Evidence Integrity**](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study): preregistered tests and explicit stopping conditions.
-- [**CS06 — Mechanism Evaluation**](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study): analysis of competing explanations and measurement limits.
-- [**Decision Audit Sprint**](DECISION_AUDIT_SPRINT.md): the approach for a bounded high-stakes review.
-
-**The consistent skill is not a particular industry. It is turning complex, imperfect evidence into a decision that survives scrutiny.**
+- [**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) — Cases and professional capabilities
+- [**H6 — Mathematical research**](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem)
+- [**CS05 — Evidence integrity**](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study)
+- [**CS06 — Mechanism evaluation**](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study)
+- [**Decision Audit Sprint**](DECISION_AUDIT_SPRINT.md)
 
 ---
 
 <div align="center">
 
-### Ricardo Vera | CIEC LAB
-**Argentina · Remote collaboration**
+**Ricardo Vera | CIEC LAB** · Argentina · Remote collaboration
 
-[**Portfolio**](EXECUTIVE_PORTFOLIO.md) · **richardvera084@gmail.com**
+[**Email**](mailto:richardvera084@gmail.com?subject=CIEC%20LAB%20%7C%20Inquiry) · [**Portfolio**](EXECUTIVE_PORTFOLIO.md)
 
-**Diagnose. Quantify. Challenge. Decide.**
+**Diagnose. Quantify. Verify. Decide.**
 
 </div>

@@ -1,13 +1,29 @@
-# Evidence & limits — SIPER-AGRO synthetic case
+# SIPER-AGRO | Verification scope and provenance
 
-**Source of the example:** A user-supplied private G10F synthetic-case ZIP (`SYNTHETIC_CONTROLLED`), with six XLSX source workbooks, a relationship contract, a result JSON, preflight results and a public-style anonymized report. The original ZIP explicitly designated itself private; it has **not** been uploaded to this repository. This case reconstructs only seven non-sensitive arithmetic comparisons from the synthetic fixture.
+This technical note defines **what can be independently verified from the public repository** and keeps the executive narrative separate from claims that require further source records.
 
-**Case recorded:** 2026-11-12. Case period: 2026-02-01 inclusive through 2026-03-01 exclusive. Ingestion preflight state `CALCULATED`, issue count 0, company data synthetic, economic authority `NONE`; 41 domain decisions open and commercial release `HOLD` in the source fixture. Document coverage counts (6/6, 5/5, 5/5, 4/4) refer to linked input rows **within the synthetic fixture**, not to sector validation.
+## Public-case provenance
 
-**Public reconstruction:** `data/synthetic_transactions.csv` is a deliberately reduced, human-readable teaching fixture derived from the numerical values and explicit relation IDs of that synthetic case. The Python code in `src/reproduce.py` is new stand-alone arithmetic, using `decimal.Decimal` and the standard library. It is not private production code and does not exercise full XLSX ingestion, security or report generation. Running `python -m unittest discover -s tests -v` tests its arithmetic and negative controls only.
+- **Nature of the case:** controlled portfolio demonstration using synthetic operational records. It is not a real-customer or paid-consulting engagement.
+- **Private reference:** G10F example package with six XLSX input categories, explicit relationship contract, computed results and a restricted report. Private source package and local application are not published.
+- **Case record date:** 2026-11-12. Example period: 2026-02-01 inclusive to 2026-03-01 exclusive.
+- **Documentary preflight recorded:** `CALCULATED`, 0 reported intake issues; coverage of linked records: 6/6 for inventory, 5/5 for settlements, 5/5 for logistics and 4/4 for price comparisons.
+- **Published differences:** stock -2 TN; settlement -500 ARS (plus another 0 ARS comparison); logistics +200 ARS (plus 0 ARS comparison); two price pairs -10 and +5 ARS/TN.
 
-**Windows W7 evidence:** The owner posted a `WINDOWS_PASS_CANDIDATE` console result for the W7 integration with app-manifest, package-manifest and Windows gate marked PASS. The W7-native log folder was not attached to this public case, and no third-party or live-client homologation has been conducted here. The newer executive interpretation is a **documentary management reading**, not a replacement for the historical enterprise risk model.
+## What is independently reproducible here
 
-**No claims of:** real acopio customers, production deployment, predictive risk calibration, IRO/KRI recomputation from G10F, profit/loss quantification, fraud detection, certified audit, official accounting, security certification or guaranteed business outcomes. These require additional evidence and approvals.
+The public `data/synthetic_transactions.csv` is a reduced numerical example derived from that controlled case. `src/reproduce.py` independently reconstructs **seven specific comparisons** using explicit relationship IDs, units and `decimal.Decimal`. The nine unit tests cover calculations and negative controls. GitHub Actions runs this public test set across Python 3.10, 3.12 and 3.13.
 
-**Privacy boundary:** No private ZIP, company source files, encrypted backup, token, installation script, manifest, raw local file path or internal algorithm is included. All public figures represent synthetic values.
+**Scope boundary:** the public script is not the SIPER-AGRO private ingestion engine, PDF renderer, backup subsystem, application security or domain-risk model. Its successful tests substantiate the published numerical example and its input-checking rules.
+
+## Application validation reported
+
+During local Windows testing, the owner reported a `WINDOWS_PASS_CANDIDATE` result for W7 integration with the application manifest, external manifest and Windows gate marked PASS. The full W7 gate log bundle has not been attached to this public case; the console result is reported as such rather than described as an independent audit or certification.
+
+## Analytical boundaries
+
+A documentary difference identifies a **review question**. It does not by itself measure commercial loss, fraud, liability or a validated causal mechanism. Legacy IRO, 12 KRIs, MCC and PFO-Lite calculations have not been mapped and validated against G10F documentary inputs in this public case. The reference implementation also identified 41 outstanding sector-domain decisions requiring authorized resolution before the broader commercial workflow can be claimed as fully approved.
+
+No private system code, credentials, company identities, client datasets or restricted ZIPs are included. Future customer projects require explicit permission and data governance before any evidence is used publicly.
+
+[Case overview](../README.md) · [Management brief](DECISION_BRIEF_ES.md)

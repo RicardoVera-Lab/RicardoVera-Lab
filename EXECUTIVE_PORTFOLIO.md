@@ -1,100 +1,99 @@
 # Ricardo Vera | CIEC LAB — Executive Portfolio
 
-## Business analysis that changes the decision, not just the report
+## I turn fragmented operational data into decisions management can act on
 
-**If a business is growing but earning less, I want to know where the margin went. If a proposed fix looks profitable, I want to know what would make it fail.**
+**Business Analysis · Operational Intelligence · Data Quality · Decision Systems**
 
-My work connects financial modeling, operational diagnostics, data quality, Python verification, risk mapping and executive decision design.
+A good report lists findings. A useful business analysis tells the decision-maker **which issue matters, what the evidence supports and what should happen next**.
 
-**Hiring fit:** Business Analyst, Operational / Performance Analyst, Decision Intelligence, Research & Systems Evaluation, Business Process Improvement.
+My portfolio demonstrates quantitative reconciliation, commercial and financial sensitivity analysis, structured operational diagnostics, Python verification and executive communication.
 
-**Consulting fit:** profitability diagnosis, operational risk reviews, financial and commercial scenario testing, decision process design.
+**Available for:** Business Analyst · Operations / Performance Analyst · Data / BI Analyst · Decision Intelligence · Research / Systems Evaluation · B2B diagnostic projects.
 
-[**Contact Ricardo Vera**](mailto:richardvera084@gmail.com?subject=Executive%20inquiry%20%7C%20CIEC%20LAB)
-
----
-
-## Portfolio evidence
-
-### 01 | Revenue increased. Margin fell. — MBA-PORT-001
-
-**Problem:** twelve-month restaurant model with higher sales but lower operating margin.
-
-**Findings:** annual net sales **32,473,404.18 UM**; operating result **8,211,449.91 UM**; January-to-December margin **28.35% → 22.17%** (**−6.18 percentage points**).
-
-**Decision stress test:** reducing discounts could add **114,563.18 UM** with unchanged unit demand; the same option produces **−82,452.97 UM** against baseline with only **1% fewer units**.
-
-**Deliverables:** reproducible Python calculation, CSV inputs, scenario matrix, executive report, operational controls and 29 automated tests.
-
-[**Read and run the case**](case-studies/mba-port-001/README.md)
-
-### 02 | A narrow operating margin and multiple warning signals — Patio del Molino
-
-**Problem:** operational screening identified simultaneous pressure on ingredient spend, waste, refunds, stock and staffing. The real management question was which signal to investigate first and what financial room remained.
-
-**Findings:** sales **4,444,400 UM**; declared purchases/inputs **1,911,092 UM**; reported operating expenses **2,381,310 UM**; simplified operating result **151,998 UM (3.42%)**. Internal operational risk index **80.04/100**.
-
-**Sensitivity:** an **8% increase in declared purchases**, holding the other modeled amounts constant, moves the simplified result from **151,998 UM to −889.36 UM**.
-
-**What changed in the decision:** 13 diagnostic hypotheses were organized into five tracks, with document requirements, measurable checks, stopping rules and a four-week plan. A **70% increase in refund value** was kept distinct from refund transaction count; customer segmentation was reconciled before interpreting loyalty.
-
-**Deliverables:** diagnostic-to-decision narrative, public financial reconstruction, indicator snapshot, decision matrix, Python verification and executive plan. The local SIPER-X application remains proprietary.
-
-[**Read the case and reproduce the financials**](case-studies/patio-del-molino/README.md)
-
-### 03 | When agribusiness documents disagree — SIPER-AGRO
-
-**Problem:** Synthetic grain storage/trading records for purchases, sales, inventory, settlements, cash and freight contain inconsistencies. Managers need to determine what must be checked before reporting an economic loss or approving a corrective action.
-
-**Findings:** **4/4** documentary reconciliation families calculated; **7** explicit comparisons, with **5** differences and **2** matches. Inventory closure differs by **-2 TN**, one settlement by **-500 ARS**, one logistics comparison by **+200 ARS** and paired unit prices by **-10 / +5 ARS/TN**.
-
-**Decision discipline:** Each difference is mapped to a verification task and an operating owner. No loss, fraud, profit or risk score is inferred from documentary gaps. Historical KRIs and IRO are deliberately withheld until sector definitions are validated.
-
-**Deliverables:** Public synthetic transaction CSV, independent Python arithmetic reconstruction, nine automated tests, Spanish executive decision brief, limitations record and GitHub CI workflow. Private SIPER-AGRO implementation and case ZIP are excluded. W7 native Windows success is owner-reported, not independently certified.
-
-[**Read and reproduce the agribusiness case**](case-studies/siper-agro/README.md)
+[**Contact me**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Opportunity) · [**GitHub portfolio home**](README.md)
 
 ---
 
-## What I can own
+## Selected work
 
-| Business need | Technical and analytical work | Executive output |
+### 01 | Agribusiness operational intelligence — SIPER-AGRO
+
+**Business challenge:** Buyers, acopios and trading businesses rely on inventory, purchases, sales, settlement, cash and freight records that must be consistent to support a sound closing decision.
+
+**Demonstrated result:** **Four documentary reconciliation areas, seven linked comparisons, five exceptions and two matching checks.** Key examples: **−2 TN** on inventory closure, **−500 ARS** on a settlement, **+200 ARS** on freight and **−10 / +5 ARS/TN** on comparable price pairs.
+
+**Management impact of the analysis:** turns differences into focused verification work for inventory, treasury, logistics and commercial teams, with owners and documentary closing criteria. It avoids making financial adjustments from an unexplained mismatch.
+
+**Evidence:** reproducible Python source, controlled records, nine automated tests, GitHub Actions validation and Spanish executive decision brief.
+
+[**Explore the SIPER-AGRO case**](case-studies/siper-agro/README.md) · [**Leer en español**](case-studies/siper-agro/README_ES.md)
+
+### 02 | Revenue increased. Margin fell. — MBA-PORT-001
+
+**Business challenge:** A restaurant model experiences higher revenue but weaker profit conversion.
+
+**Findings:** annual net sales **32,473,404.18 UM** and simplified operating result **8,211,449.91 UM**; the monthly margin falls from **28.35% to 22.17%** (**−6.18 percentage points**).
+
+**Decision stress test:** a discount reduction appears worth **+114,563.18 UM** without demand response, but shifts to **−82,452.97 UM** versus baseline with a **1% reduction in units**.
+
+**Evidence:** financial calculations, CSV inputs, scenario matrix and automated validation.
+
+[**Read the profitability case**](case-studies/mba-port-001/README.md)
+
+### 03 | Prioritizing risks under a narrow margin — Patio del Molino
+
+**Business challenge:** Simultaneous signals in stock, ingredient purchases, waste, refunds and staffing compete for management attention.
+
+**Findings:** sales **4,444,400 UM**; simplified operating result **151,998 UM (3.42%)**; internal operational risk index **80.04/100**; **13** investigation hypotheses organized into five decision tracks.
+
+**Sensitivity:** increasing reported purchases by **8%**, with other modeled variables constant, changes the simplified result to **−889.36 UM**.
+
+**Evidence:** diagnostic-to-decision report, numerical reconstruction, prioritized checks and a proposed four-week review roadmap.
+
+[**Read the operational diagnosis**](case-studies/patio-del-molino/README.md)
+
+*These selected cases use structured example datasets to demonstrate the analytical work and decision methods; they are not presented as verified paid-client engagements.*
+
+---
+
+## How I approach a business problem
+
+| Executive need | Analytical work | Decision output |
 |---|---|---|
-| Profitability erosion | Reconcile revenues, purchase costs, expenses and product economics | Margin drivers, scenarios and decision priorities |
-| Operational losses | Screen stock differences, waste, refunds and process measures | Prioritized investigation and controlled pilots |
-| Commercial uncertainty | Stress-test prices and promotions against demand response | Decision matrix with explicit downside |
-| Data quality problems | Check identities, records, cross-source consistency and missing evidence | Traceable metrics and what can be concluded |
-| Risky decisions | Compare alternatives, assumptions, reversibility and stop rules | Management brief and action roadmap |
+| Profitability uncertainty | Reconcile sales, costs, margins and scenarios | Financial drivers, sensitivities and prioritized alternatives |
+| Operational inconsistencies | Link inventory, transactions, settlements and supporting records | Exception register, evidence requests and accountable follow-up |
+| Data quality and reporting | Validate definitions, consistency, units and missing records | Trustworthy metrics and explicit scope of conclusions |
+| Competing management priorities | Compare consequences, data support and reversibility | Decision brief, ownership and next review checkpoints |
 
-**Tools and methods evidenced in the repository:** Python, CSV-based analytics, numerical reconciliation, scenario modeling, automated tests, documented evidence and management reporting.
+### Consulting project structure
 
-## How I work with decision-makers
+**Discovery and scope → Source validation → Analytical reconstruction → Executive findings → Action plan and follow-up.**
 
-1. **Define the business decision.** Which result must improve, and what may not get worse?
-2. **Reconstruct the baseline.** Determine what the available records actually say.
-3. **Challenge the first explanation.** Separate signals, assumptions, missing links and causal hypotheses.
-4. **Compare alternatives.** Calculate upside, downside, operational cost and required evidence.
-5. **Deliver a decision.** Prioritize the next measurable steps and define when to stop or revise.
+The deliverables and commercial terms depend on the size of the operation, quality of data and specific management decision. This approach supports—rather than replaces—the company's accounting, legal and statutory audit functions.
 
-This is not a promise that every proposed intervention will make money. It is a way to identify bad bets earlier and focus scarce management attention on defensible choices.
+## Tools and working methods
 
----
+**Python · SQL-oriented data reasoning · CSV/XLSX data reconciliation · scenario modeling · reproducible scripts · automated testing · evidence traceability · management reporting.**
 
-## Scientific and technical research
+This repository shows working examples and validation artifacts, not only descriptions of methods.
 
-- [H6 — Mathematical discovery](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem)
-- [CS05 — Topological overshoot case](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study)
-- [CS06 — Mechanism identification case](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study)
+## Research and technical investigation
+
+- [H6 — Mathematical research](https://github.com/RicardoVera-Lab/h6-universal-quadratic-image-theorem)
+- [CS05 — Evidence integrity](https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study)
+- [CS06 — Mechanism evaluation](https://github.com/RicardoVera-Lab/cs06-hypnosis-mechanism-identification-case-study)
 - [Decision Audit Sprint](DECISION_AUDIT_SPRINT.md)
 
-## The call to action
+---
 
-**For hiring managers:** review the three cases and ask how I would investigate a performance problem in your organization.
+## Let's work on a decision that matters
 
-**For business owners:** send the type of operation, available financial/operational records and the decision you are struggling to make.
+**Hiring managers:** choose one of the three cases and ask how I would adapt the evidence checks to your business.
 
-**Ricardo Vera — CIEC LAB**
+**Business owners:** describe the operational discrepancy, the records you have and the decision that cannot wait.
 
-[**Email: richardvera084@gmail.com**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Opportunity%20or%20diagnostic)
+**Ricardo Vera | CIEC LAB · Argentina · Remote collaboration**
 
-**A good analysis tells you what happened. A strong decision system also tells you what deserves action—and what does not.**
+[**Email Ricardo Vera**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Business%20Inquiry)
+
+**Diagnose. Quantify. Verify. Decide.**

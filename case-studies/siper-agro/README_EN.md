@@ -1,15 +1,28 @@
-# SIPER-AGRO — Recruiter quick brief
+# SIPER-AGRO | Executive & Hiring Brief
 
-**Third public case study | Synthetic agribusiness operations | November 2026**
+**Operational intelligence · Agribusiness data reconciliation · CIEC LAB**
 
-**Challenge:** Six categories of farm-trading documents can each look plausible while cross-source comparisons disagree. Management needs an evidence trail and a priority list, not a confident but unverified diagnosis.
+**Business problem:** Grain storage and trading operations frequently depend on disconnected inventory, purchasing, sales, cash, settlement and freight records. When totals disagree, management needs a traceable explanation and a concrete review plan.
 
-**Controlled result:** Four reconciliation families, seven linked comparisons, five non-zero variances and two zero variances: inventory **-2 TN**; settlement **-500 / 0 ARS**; freight **+200 / 0 ARS**; paired price deviations **-10 / +5 ARS per TN**. None of these values establishes profit, loss, fraud or causality.
+**Documented case:** Four reconciliation areas, seven explicitly linked comparisons, five differences and two matches.
 
-**Demonstrated skills:** quantitative reconstruction, explicit record linking, data-quality gates, Python unit tests, managerial recommendations and transparent abstention where evidence is insufficient.
+| Operational signal | Difference | Next management question |
+|---|---:|---|
+| Inventory closure | **−2 TN** | Which movement, count or cut-off explains the balance? |
+| Settlements vs payments | **−500 ARS** | Which payment allocation or receipt is outstanding? |
+| Freight vs cost ledger | **+200 ARS** | Are these cost records measuring the same service? |
+| Two price pairs | **−10 / +5 ARS/TN** | Are product, terms and pricing bases comparable? |
 
-**Reproduce:** `python src/reproduce.py` followed by `python -m unittest discover -s tests -v` from this directory (Python 3.10+, no external packages).
+**What the work demonstrates:** business problem framing, source linking, structured verification, decimal-precision reconciliation, nine automated tests and management-oriented recommendations.
 
-**Scope caveat:** The included source is an independent public arithmetic demonstration, **not the proprietary SIPER-AGRO engine**. The local Windows W7 candidate passed an owner-reported native gate; a complete external certification and commercial release are not claimed. Forty-one sector decisions remain open, and legacy risk indices have not been validated against the G10F input mapping.
+**Technical evidence:** [Source data](data/synthetic_transactions.csv) · [Public reproduction](src/reproduce.py) · [Tests](tests/test_reproduce.py) · [Executive decisions](docs/DECISION_BRIEF_ES.md)
 
-[Full case study](README.md) · [Decision brief in Spanish](docs/DECISION_BRIEF_ES.md) · [Evidence statement](docs/EVIDENCE_AND_LIMITATIONS.md)
+**Reproduce:** From this folder, run `python src/reproduce.py` and `python -m unittest discover -s tests -v` (Python 3.10+, no external packages).
+
+**Engagement fit:** Business Analyst · Operations Analyst · Data Quality · Operational Risk · Agribusiness Consulting.
+
+[**Discuss a role or operational diagnostic**](mailto:richardvera084@gmail.com?subject=Ricardo%20Vera%20%7C%20Business%20Analysis)
+
+*Portfolio demonstration using synthetic operational records; not a client engagement. Technical scope and product limits are documented [here](docs/EVIDENCE_AND_LIMITATIONS.md).*
+
+[Full case study](README.md) · [Versión en español](README_ES.md)
