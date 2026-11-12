@@ -1,0 +1,13 @@
+{
+  "source": "SYNTHETIC_CONTROLLED",
+  "economic_authority": "NONE",
+  "reconciliations": [
+    {"family": "inventory", "relation_id": "INV-1", "difference": "-2", "unit": "TN", "status": "REVIEW"},
+    {"family": "logistics", "relation_id": "COST-1", "difference": "200", "unit": "ARS", "status": "REVIEW"},
+    {"family": "logistics", "relation_id": "COST-2", "difference": "0", "unit": "ARS", "status": "MATCH"},
+    {"family": "prices", "relation_id": "PRECIO-1", "difference": "-10", "unit": "ARS/TN", "status": "REVIEW"},
+    {"family": "prices", "relation_id": "PRECIO-2", "difference": "5", "unit": "ARS/TN", "status": "REVIEW"},
+    {"family": "settlements", "relation_id": "LIQ-1", "difference": "-500", "unit": "ARS", "status": "REVIEW"},
+    {"family": "settlements", "relation_id": "LIQ-2", "difference": "0", "unit": "ARS", "status": "MATCH"}
+  ]
+}

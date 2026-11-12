@@ -42,6 +42,18 @@ My work connects financial modeling, operational diagnostics, data quality, Pyth
 
 [**Read the case and reproduce the financials**](case-studies/patio-del-molino/README.md)
 
+### 03 | When agribusiness documents disagree — SIPER-AGRO
+
+**Problem:** Synthetic grain storage/trading records for purchases, sales, inventory, settlements, cash and freight contain inconsistencies. Managers need to determine what must be checked before reporting an economic loss or approving a corrective action.
+
+**Findings:** **4/4** documentary reconciliation families calculated; **7** explicit comparisons, with **5** differences and **2** matches. Inventory closure differs by **-2 TN**, one settlement by **-500 ARS**, one logistics comparison by **+200 ARS** and paired unit prices by **-10 / +5 ARS/TN**.
+
+**Decision discipline:** Each difference is mapped to a verification task and an operating owner. No loss, fraud, profit or risk score is inferred from documentary gaps. Historical KRIs and IRO are deliberately withheld until sector definitions are validated.
+
+**Deliverables:** Public synthetic transaction CSV, independent Python arithmetic reconstruction, nine automated tests, Spanish executive decision brief, limitations record and GitHub CI workflow. Private SIPER-AGRO implementation and case ZIP are excluded. W7 native Windows success is owner-reported, not independently certified.
+
+[**Read and reproduce the agribusiness case**](case-studies/siper-agro/README.md)
+
 ---
 
 ## What I can own
@@ -77,7 +89,7 @@ This is not a promise that every proposed intervention will make money. It is a 
 
 ## The call to action
 
-**For hiring managers:** review the two cases and ask how I would investigate a performance problem in your organization.
+**For hiring managers:** review the three cases and ask how I would investigate a performance problem in your organization.
 
 **For business owners:** send the type of operation, available financial/operational records and the decision you are struggling to make.
 

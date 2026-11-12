@@ -9,24 +9,26 @@
 
 **I investigate what is happening, test what might work, and make the reasoning inspectable.**
 
-[**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) · [**Restaurant decision case**](case-studies/mba-port-001/README.md) · [**Diagnostic-to-decision case**](case-studies/patio-del-molino/README.md) · [**Contact**](mailto:richardvera084@gmail.com?subject=Business%20Analysis%20%7C%20CIEC%20LAB)
+[**Executive portfolio**](EXECUTIVE_PORTFOLIO.md) · [**Restaurant decision case**](case-studies/mba-port-001/README.md) · [**Diagnostic-to-decision case**](case-studies/patio-del-molino/README.md) · [**Agribusiness documentary case**](case-studies/siper-agro/README.md) · [**Contact**](mailto:richardvera084@gmail.com?subject=Business%20Analysis%20%7C%20CIEC%20LAB)
 
 </div>
 
 ---
 
-## Two restaurant cases. Two different management problems.
+## Three business cases. Three distinct decision problems.
 
 | Proof of work | Business question | Verified case finding | What the work demonstrates |
 |---|---|---|---|
 | **[MBA-PORT-001 — Profitability Under Pressure](case-studies/mba-port-001/README.md)** | Why does revenue increase while profit conversion deteriorates? | Operating margin fell from **28.35% to 22.17%**. Cutting discounts appears worth **+114,563.18 UM**, but a **1% drop in unit demand** changes that to **−82,452.97 UM** versus baseline. | Financial reconciliation, scenario sensitivity, controlled decisions, Python tests. |
 | **[SIPER-X → CIEC LAB — Patio del Molino](case-studies/patio-del-molino/README.md)** | Which signals matter when a restaurant is losing operating room? | On **4,444,400 UM** of sales, the simplified operating result was **151,998 UM (3.42%)**. Operational risk index **80.04/100** and **13 investigation hypotheses** were organized into five decision tracks. | Web-based operational diagnosis, risk analysis, economic reconstruction, evidence checks, management roadmap. |
 
+| **[SIPER-AGRO — Agribusiness documentary reconciliation](case-studies/siper-agro/README.md)** | How should a grain storage/trading company investigate discrepancies between its inventory, settlements, freight and price records? | **4/4** synthetic documentary families calculated; **7** explicit comparisons: **5** non-zero discrepancies and **2** matching pairs. Inventory **-2 TN**, settlement **-500 ARS**, freight **+200 ARS**, prices **-10 / +5 ARS/TN**. | Evidence-based operational analysis, explicit linking, data-quality gates, public decimal-arithmetic reconstruction and nine tests. |
+
 **The difference:** an alert is not a conclusion; a dashboard is not a decision. We connect the numbers to an action that can be justified, checked and stopped.
 
 ## What a hiring manager can inspect in five minutes
 
-1. **Business judgment:** the executive findings and decision criteria in both cases.
+1. **Business judgment:** the executive findings and decision criteria in all three cases.
 2. **Quantitative work:** revenue, costs, margins, sensitivity scenarios and operational indicators.
 3. **Technical execution:** Python source, reproducible calculations and automated tests.
 4. **Evidence discipline:** inconsistent metrics are reconciled or marked unavailable rather than presented as fact.

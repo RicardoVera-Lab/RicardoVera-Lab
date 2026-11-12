@@ -1,0 +1,25 @@
+name: SIPER-AGRO public case tests
+on:
+  push:
+    paths:
+      - 'case-studies/siper-agro/**'
+      - '.github/workflows/agro-case-validation.yml'
+  pull_request:
+    paths:
+      - 'case-studies/siper-agro/**'
+      - '.github/workflows/agro-case-validation.yml'
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Test public synthetic case
+        run: python -m unittest discover -s case-studies/siper-agro/tests -v
+      - name: Reproduce figures
+        run: python case-studies/siper-agro/src/reproduce.py
